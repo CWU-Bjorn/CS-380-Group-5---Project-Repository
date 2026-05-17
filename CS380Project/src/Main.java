@@ -1,11 +1,9 @@
 /**
  * Imports, as with the other files this could probably be cleaned up
  */
-
 import java.util.*;
 import java.sql.*;
 import java.io.*;
-
 /**
  * Declaration of main argument
  */
@@ -23,7 +21,6 @@ public class Main {
          * Uses what the player enters to connect to the database and run code in the DatabaseConnection.java file
          */
         Player clientSideUser = DatabaseConnection.loadPlayer(choosenSlot);
-
         /**
          * Same as the user prompt above except it wants the password the is unique to each save. Even if two saves have the same password the save must first be
          * designated and because of that there will never be conflict as the save file number is unique for each save slot and thus the password will also be unique.
@@ -41,6 +38,5 @@ public class Main {
         }else{
             System.out.println("Password does not match the correct password");
         }
-
     }
 }
