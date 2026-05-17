@@ -1,9 +1,7 @@
 /**
  * Import of all java library for ease. Will probably change this to what is needed later
  */
-
 import java.util.*;
-
 /**
  * Start of the player class, this creates a private instance of everything in the database. As we go we will likely change the contents in here to better reflect
  * what the game becomes but for now it's a proof of concept.
@@ -72,9 +70,6 @@ public class Player{
         }
         return true;
     }
-
-
-
 }
 
 
