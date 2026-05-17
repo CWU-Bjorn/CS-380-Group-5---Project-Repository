@@ -1,12 +1,10 @@
 /**
  * Import of the necessary stuff, I just imported all of the libraries so this would probably need to change later for efficiency
  */
-
 import java.io.*;
 import java.sql.*;
 
 public class DatabaseConnection {
-
     /**
      *Method that connects to the database by passing the url of the file into it
      */
@@ -28,7 +26,6 @@ public class DatabaseConnection {
                throw new IllegalArgumentException("There is no saveslot with this designation, enter 1 , 2 , 3 to choose a save.");
            }
 }
-
     /**
      *Finds the primary key of the table
      */
@@ -43,7 +40,6 @@ public class DatabaseConnection {
             throw new IllegalArgumentException("There is no saveslot with this designation, enter 1 , 2 , 3 to choose a save.");
         }
     }
-
     /**
      *Runs SQL query to fetch everything from the located save slot. It does this by mathcing the table with the values in the if statement
      * wrapped in a try/catch statement. In the future this section will likely look a lot different.
@@ -79,10 +75,7 @@ public class DatabaseConnection {
                 }
             }catch (SQLException e){
                 System.out.println("Trouble with the database, unable to load it");
-
             }
             return null;
     }
         }
-
-
