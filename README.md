@@ -1,2 +1,2 @@
 # CS-380-Group-5---Project-Repository
-This is the repository for group 5. For our project we have created a game, the player will progress through different obstacles in an attempt to reach the end goal. We are proud to share our work with everyone!
+Implementation of my week one deliverables. Player entity, database conversion and update so that we no longer need a server, connection of database to the player, password protection, ability to print everything to the consol. Now we just need to put everything together and we will have a good prototype of our project!
