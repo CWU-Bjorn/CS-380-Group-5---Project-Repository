@@ -35,6 +35,13 @@ public class Main {
         if(clientSideUser.isPasswordCorrect(userPassword)){
             System.out.println("Welcome back! You are now logged in!");
             System.out.println(clientSideUser);
+
+            NPC npcBeing = new NPC();
+            npcBeing.npcEvent("local");
+
+//            Puzzle puzzleGen = new Puzzle();
+//            boolean success = puzzleGen.puzzleEvent();
+//            System.out.println(success);
         }else{
             System.out.println("Password does not match the correct password");
         }

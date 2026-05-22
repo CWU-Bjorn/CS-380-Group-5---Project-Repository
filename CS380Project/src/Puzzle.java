@@ -1,5 +1,3 @@
-package Puzzle;
-
 import java.util.Random;
 import java.io.*;
 import java.util.Scanner;

@@ -1,5 +1,3 @@
-package NPC;
-
 import java.io.*;
 
 public class NPC {
