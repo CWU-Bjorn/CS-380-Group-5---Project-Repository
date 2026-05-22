@@ -1,0 +1,4 @@
+===Puzzle 1===
+===Solve===
+alakazam
+===EOF===
