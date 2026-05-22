@@ -8,7 +8,7 @@ public class DatabaseConnection {
     /**
      *Method that connects to the database by passing the url of the file into it
      */
-       private static Connection connect() throws SQLException{
+       private static Connection connect() throws SQLException{     
            return DriverManager.getConnection("jdbc:sqlite:380DatabaseSQLite.db");
         }
 
@@ -75,6 +75,7 @@ public class DatabaseConnection {
                 }
             }catch (SQLException e){
                 System.out.println("Trouble with the database, unable to load it");
+                e.printStackTrace();
             }
             return null;
     }
