@@ -18,6 +18,7 @@ public class SaveSelectController {
     private void onSelectSaveClick() {
         // Once a user picks a save slot, transition directly to the map
         SceneManager.switchScene("map.fxml");
+
     }
 
 
