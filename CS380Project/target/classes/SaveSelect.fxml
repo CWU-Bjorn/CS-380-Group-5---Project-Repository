@@ -15,9 +15,9 @@
             <Font name="Candara Bold" size="24.0" />
          </font>
       </Text>
-      <PasswordField layoutX="226.0" layoutY="140.0" />
-      <PasswordField layoutX="226.0" layoutY="240.0" />
-      <PasswordField layoutX="226.0" layoutY="340.0" />
+      <PasswordField fx:id="saveSlotOne" layoutX="226.0" layoutY="140.0" />
+      <PasswordField fx:id="saveSlotTwo" layoutX="226.0" layoutY="240.0" />
+      <PasswordField fx:id="saveSlotThree" layoutX="226.0" layoutY="340.0" />
       <Text fill="WHITE" layoutX="135.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Password:">
          <font>
             <Font name="Candara" size="12.0" />
@@ -49,5 +49,8 @@
          </font>
       </Text>
       <Button layoutX="8.0" layoutY="55.0" mnemonicParsing="false" onAction="#onSelectSaveClick" prefHeight="40.0" prefWidth="103.0" text="SWITCHTOMAP" />
+      <Button layoutX="393.0" layoutY="140.0" mnemonicParsing="false" onAction="#clickUsageForSaveOne" text="Enter" />
+      <Button layoutX="389.0" layoutY="240.0" mnemonicParsing="false" onAction="#clickUsageForSaveTwo" text="Enter" />
+      <Button layoutX="389.0" layoutY="340.0" mnemonicParsing="false" onAction="#clickUsageForSaveThree" text="Enter" />
    </children>
 </AnchorPane>
