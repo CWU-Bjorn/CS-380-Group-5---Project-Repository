@@ -1,49 +1,36 @@
-import java.util.Random;
+import java.util.*;
 import java.io.*;
-import java.util.Scanner;
 
 class Puzzle {
-
-    Random puzzleID = new Random();                                     //Use Random for puzzle selection
-    public int puzzleNumber = puzzleID.nextInt(3 - 1 + 1) + 1; // Puzzle Selection Generation
     boolean puzzleStatus = false;                                   // Flag for successful puzzle completion
 
     public boolean puzzleEvent() {
 
-        String fileName = "";      //Stores file name
-        String line = "";         // Stores File Lines
-        String wordToGuess = "";
+        String fileName = "puzzle_wordbank.txt";
+        String line;
+        List<String> wordList = new ArrayList<String>();
+
         boolean success = false;
 
         Scanner input = new Scanner(System.in);
 
-        switch (puzzleNumber) { // File Selector using switch
-            case 1:
-                fileName = "puzzle1.txt";
-                break;
-            case 2:
-                fileName = "puzzle2.txt";
-                break;
-            case 3:
-                fileName = "puzzle3.txt";
-                break;
-        }
-
         try (BufferedReader fileBuffer = new BufferedReader (new FileReader(fileName))){ // Try-Catch Block to open file if exist
 
             while ((line = fileBuffer.readLine()) != null) { // While loop to skip header and EOF lines. Stores word in variable
-                if (line.contains("=")) {
-                    continue;
-                }
-                wordToGuess = line.trim();
+                wordList.add(line.trim());
             }
 
         } catch (IOException e){
             System.out.println("File Not Found...");
         }
 
-        StringBuilder wordHidden = new StringBuilder(); // WordBuilder for string mutation
-        wordHidden.append("_".repeat(wordToGuess.length()));  // Create a "Hidden" version of word to guess
+        Random randChoice = new Random();
+        String wordToGuess = wordList.get(randChoice.nextInt(wordList.size()));
+
+        StringBuilder wordHidden = new StringBuilder();
+        for(int i = 0; i < wordToGuess.length(); i++){
+            wordHidden.append("_");
+        }
 
         while(!success) {
             System.out.print("Enter a letter to guess the clue: ");
