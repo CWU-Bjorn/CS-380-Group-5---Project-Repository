@@ -1,3 +1,5 @@
+package UserInterface;
+
 import java.io.*;
 
 public class NPC {
