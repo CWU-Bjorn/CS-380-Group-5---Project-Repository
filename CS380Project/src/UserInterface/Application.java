@@ -8,7 +8,7 @@ import java.io.IOException;
 
 /**
  * This is the class that acts as the launcher class
- * sets the stage to be SaveSelect.fxml first, SceneManager then handles switching the scenes
+ * sets the stage to be saveSelect.fxml first, SceneManager then handles switching the scenes
  */
 public class Application extends javafx.application.Application {
     @Override
@@ -18,7 +18,7 @@ public class Application extends javafx.application.Application {
         SceneManager.setStage(stage);
         stage.setResizable(false);
 
-        SceneManager.switchScene("SaveSelect.fxml");
+        SceneManager.switchScene("saveSelect.fxml");
         stage.sizeToScene();
     }
 

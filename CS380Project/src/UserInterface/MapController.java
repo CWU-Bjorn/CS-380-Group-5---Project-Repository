@@ -12,7 +12,7 @@ public class MapController {
      */
     @FXML
     private void onEnterLocationClick() {
-        SceneManager.switchScene("Gameplay.fxml");
+        SceneManager.switchScene("gameplay.fxml");
     }
 
     /**
@@ -20,6 +20,6 @@ public class MapController {
      */
     @FXML
     private void onBackToMenuClick() {
-        SceneManager.switchScene("SaveSelect.fxml");
+        SceneManager.switchScene("saveSelect.fxml");
     }
 }
