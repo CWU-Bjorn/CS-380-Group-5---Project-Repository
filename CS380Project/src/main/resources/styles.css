@@ -14,7 +14,7 @@
     -fx-cursor: hand;
 }
 
-/* Turns black with white text */
+/* Turns blue with white text */
 .action-button:hover {
     -fx-background-color: #4da5ff;
     -fx-text-fill: #ffffff;

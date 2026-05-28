@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
+<AnchorPane prefHeight="200.0" prefWidth="300.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
    <children>
       <ImageView fitHeight="508.0" fitWidth="505.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -24,7 +24,7 @@
       <Button layoutX="228.0" layoutY="365.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
       <Button layoutX="60.0" layoutY="365.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
       <Button layoutX="195.0" layoutY="228.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
-      <Button layoutX="92.0" layoutY="93.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
+      <Button layoutX="93.0" layoutY="93.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
       <Button layoutX="431.0" layoutY="24.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #f7f00f;" text="level1" textFill="#f7f00f" />
    </children>
 </AnchorPane>
