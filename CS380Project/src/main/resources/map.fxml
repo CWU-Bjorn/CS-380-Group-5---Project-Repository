@@ -4,21 +4,27 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
    <children>
-      <ImageView fitHeight="502.0" fitWidth="501.0" layoutX="-9.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="508.0" fitWidth="505.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@Map.png" />
          </image>
       </ImageView>
-      <Button layoutX="183.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="obstacle" visible="false" />
-      <Button layoutY="425.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="31.0" prefWidth="120.0" text="SwitchToGameplay" />
-      <Button layoutX="418.0" layoutY="14.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="Completion" visible="false" />
-      <Button layoutY="456.0" mnemonicParsing="false" onAction="#onBackToMenuClick" prefHeight="31.0" prefWidth="120.0" text="BackToMenu" />
-      <Button layoutX="82.0" layoutY="80.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="level4" visible="false" />
-      <Button layoutX="182.0" layoutY="210.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="level3" visible="false" />
-      <Button layoutX="47.0" layoutY="345.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="Level2" visible="false" />
-      <Button layoutX="217.0" layoutY="345.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="level1" visible="false" />
+      <Button layoutX="385.0" layoutY="475.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: #1e90ff;" text="ToGameplay" textFill="WHITE">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font></Button>
+      <Button layoutY="475.0" mnemonicParsing="false" onAction="#onBackToMenuClick" prefHeight="31.0" prefWidth="120.0" style="-fx-background-color: #1e90ff;" text="BackToMenu" textFill="WHITE">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font></Button>
+      <Button layoutX="228.0" layoutY="365.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
+      <Button layoutX="60.0" layoutY="365.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
+      <Button layoutX="195.0" layoutY="228.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
+      <Button layoutX="92.0" layoutY="93.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
+      <Button layoutX="431.0" layoutY="24.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 50; -fx-background-color: #f7f00f;" text="level1" textFill="#f7f00f" />
    </children>
 </AnchorPane>

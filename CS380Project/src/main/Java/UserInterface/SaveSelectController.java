@@ -21,6 +21,12 @@ public class SaveSelectController {
 
     @FXML
     private Label message;
+    @FXML
+    private Label message1;
+    @FXML
+    private Label message2;
+    @FXML
+    private Label message3;
 
     @FXML
     private void clickUsageForSaveOne(){
@@ -61,7 +67,8 @@ public class SaveSelectController {
 
             SceneManager.switchScene("map.fxml");
         }else{
-            message.setText("Does not match");
+            // creates array of message labels and prints to the correct one based on saveSlot
+            new Label[]{message1, message2, message3}[saveSlotID - 1].setText("Password does not match");
         }
     }
     /**

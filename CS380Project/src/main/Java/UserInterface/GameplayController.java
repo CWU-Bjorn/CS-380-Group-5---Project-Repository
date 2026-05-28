@@ -7,6 +7,7 @@ import javafx.fxml.FXML;
  */
 public class GameplayController {
 
+
     /**
      * when gameplay is finished returns to map
      */

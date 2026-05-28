@@ -7,6 +7,10 @@ import javafx.fxml.FXML;
  */
 public class MapController {
 
+
+    @FXML
+    private void completion(){}
+
     /**
      * changes scene to Gameplay.fxml when selecting location
      */
