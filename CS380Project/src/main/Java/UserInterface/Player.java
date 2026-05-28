@@ -80,13 +80,12 @@ public class Player{
     /**
      * The actual "print" statement that sends what is read from the database to the screen.
      */
-    @Override
-    public String toString(){
-        return "Save slot number: " +saveslotRotation+
-                "\nPlayer Name: " + playerName +
+
+    public String getDisplayToGUI(){
+        return
                 "\nAmount of currency in satchel: " + currencyAmount +
-                "\nHow far along: " + NumberOfCompleatedObstacles +
-                "\nItems collected: " + storedItem1 + ", " + storedItem2 + ", " + storedItem3 + ", " + storedItem4 + ", " + storedItem5 + ", " + storedItem6;
+                "\nItems collected: " + storedItem1 + ", " + storedItem2 + ", " + storedItem3
+                        + ", " + storedItem4 + ", " + storedItem5 + ", " + storedItem6;
     }
 
     /**

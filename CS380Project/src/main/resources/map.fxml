@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
+<AnchorPane prefHeight="591.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
    <children>
       <ImageView fitHeight="502.0" fitWidth="501.0" layoutX="-9.0" layoutY="-14.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -20,5 +19,7 @@
       <Button layoutX="182.0" layoutY="210.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="level3" visible="false" />
       <Button layoutX="47.0" layoutY="345.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="Level2" visible="false" />
       <Button layoutX="217.0" layoutY="345.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" text="level1" visible="false" />
+      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="120.0" layoutY="487.0" prefHeight="102.0" prefWidth="364.0" />
+      <Button layoutY="488.0" mnemonicParsing="false" onAction="#buttonActionClick" prefHeight="26.0" prefWidth="120.0" text="Print Inventory" />
    </children>
 </AnchorPane>
