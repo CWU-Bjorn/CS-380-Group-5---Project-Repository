@@ -8,6 +8,10 @@ import javafx.scene.control.TextArea;
  */
 public class MapController {
 
+
+    @FXML
+    private void completion(){}
+
     /**
      * changes scene to Gameplay.fxml when selecting location
      */
