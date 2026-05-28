@@ -49,8 +49,11 @@
          </font>
       </Text>
       <Button layoutX="8.0" layoutY="55.0" mnemonicParsing="false" onAction="#onSelectSaveClick" prefHeight="40.0" prefWidth="103.0" text="SWITCHTOMAP" />
-      <Button layoutX="393.0" layoutY="140.0" mnemonicParsing="false" onAction="#clickUsageForSaveOne" text="Enter" />
-      <Button layoutX="389.0" layoutY="240.0" mnemonicParsing="false" onAction="#clickUsageForSaveTwo" text="Enter" />
-      <Button layoutX="389.0" layoutY="340.0" mnemonicParsing="false" onAction="#clickUsageForSaveThree" text="Enter" />
+      <Button layoutX="442.0" layoutY="118.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
+      <Button layoutX="442.0" layoutY="310.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
+      <Button layoutX="442.0" layoutY="210.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
+      <Button layoutX="446.0" layoutY="152.0" mnemonicParsing="false" onAction="#clickUsageForSaveOne" prefHeight="26.0" prefWidth="48.0" text="Enter" />
+      <Button layoutX="444.0" layoutY="248.0" mnemonicParsing="false" onAction="#clickUsageForSaveTwo" text="Enter" />
+      <Button layoutX="444.0" layoutY="342.0" mnemonicParsing="false" onAction="#clickUsageForSaveThree" text="Enter" />
    </children>
 </AnchorPane>

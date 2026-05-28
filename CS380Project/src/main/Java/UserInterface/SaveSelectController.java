@@ -54,14 +54,18 @@ public class SaveSelectController {
         if(clientSideUser.isPasswordCorrect(password)){
             System.out.println("Password Correct");
 
-            String getPlayerNameVar = clientSideUser.getPlayerName();
-            System.out.println("Character Name: " + getPlayerNameVar);
+            CurrentPlayerSessionHelperClass.setCurrentPlayer(clientSideUser);
 
-            int NumberOfCompleatedObstaclesVar = clientSideUser.getNumberOfCompleatedObstacles();
-            System.out.println("Save progress indicator: " + NumberOfCompleatedObstaclesVar);
+            System.out.println("Good Test: " + CurrentPlayerSessionHelperClass.getCurrentPlayer());
 
-            int currencyAmountVar = clientSideUser.getCurrencyAmount();
-            System.out.println("Money in coin purse: " + currencyAmountVar);
+//            String getPlayerNameVar = clientSideUser.getPlayerName();
+//            System.out.println("Character Name: " + getPlayerNameVar);
+//
+//            int NumberOfCompleatedObstaclesVar = clientSideUser.getNumberOfCompleatedObstacles();
+//            System.out.println("Save progress indicator: " + NumberOfCompleatedObstaclesVar);
+//
+//            int currencyAmountVar = clientSideUser.getCurrencyAmount();
+//            System.out.println("Money in coin purse: " + currencyAmountVar);
 
 
 
