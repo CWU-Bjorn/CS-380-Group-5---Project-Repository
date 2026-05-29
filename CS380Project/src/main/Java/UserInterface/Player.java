@@ -11,6 +11,7 @@ public class Player{
 
     private int saveslotRotation;
     private String playerName;
+    private int playerHP = 25;
     private String passwordForSaveToSave;
     private String storedItem1;
     private String storedItem2;
@@ -24,11 +25,12 @@ public class Player{
     /**
      * This is the constructor, built on the many different declared items above.
      */
-    public Player(int saveslotRotation, String playerName, String passwordForSaveToSave, String storedItem1, String storedItem2,
+    public Player(int saveslotRotation, String playerName, int playerHP, String passwordForSaveToSave, String storedItem1, String storedItem2,
                   String storedItem3, String storedItem4, String storedItem5, String storedItem6, int currencyAmount, int NumberOfCompleatedObstacles){
 
         this.saveslotRotation = saveslotRotation;
         this.playerName = playerName;
+        this.playerHP = playerHP;
         this.passwordForSaveToSave = passwordForSaveToSave;
         this.storedItem1 = storedItem1;
         this.storedItem2 = storedItem2;
@@ -48,7 +50,7 @@ public class Player{
     public String getPlayerName(){
         return playerName;
     }
-
+    public int getPlayerHP(){return playerHP;}
     public String getPasswordForSaveToSave(){
         return passwordForSaveToSave;
     }
@@ -77,6 +79,14 @@ public class Player{
         return saveslotRotation;
     }
 
+    /*Setter - setHP. For the enemy event, The enemy attacks and affects the players health
+    To affect the player, we need some kind of way to reduce health - Nelson B.*/
+
+    public void setPlayerHP(int healthAffect){
+        this.playerHP += healthAffect;
+    }
+
+
     /**
      * The actual "print" statement that sends what is read from the database to the screen.
      */
@@ -85,7 +95,9 @@ public class Player{
         return
                 "\nAmount of currency in satchel: " + currencyAmount +
                 "\nItems collected: " + storedItem1 + ", " + storedItem2 + ", " + storedItem3
-                        + ", " + storedItem4 + ", " + storedItem5 + ", " + storedItem6;
+                        + ", " + storedItem4 + ", " + storedItem5 + ", " + storedItem6
+                        + "\nPlayer's Health: " + playerHP;
+
     }
 
     /**

@@ -1,19 +1,27 @@
 package UserInterface;
 
 import java.io.*;
+import java.util.ArrayList;
 
 public class NPC {
     String npcName = "";
     String fileName = "";
     String line = "";
 
+    public void shop(){
+        ArrayList<String> shop = new ArrayList<>();
+    }
+
     public void npcEvent(String npc) {
+        npc = npc.toLowerCase();
         switch(npc) {
             case "bard":
                 fileName = "Dialogue2.txt";
                 break;
             case "local":
                 fileName = "Dialogue1.txt";
+                break;
+            case "shopkeeper":
                 break;
         }
 

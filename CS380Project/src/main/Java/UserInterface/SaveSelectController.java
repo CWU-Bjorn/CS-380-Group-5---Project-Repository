@@ -82,7 +82,7 @@ public class SaveSelectController {
     @FXML
     private void onSelectSaveClick() {
         // Once a user picks a save slot, transition directly to the map
-        SceneManager.switchScene("Map.fxml");
+        SceneManager.switchScene("map.fxml");
     }
 
 

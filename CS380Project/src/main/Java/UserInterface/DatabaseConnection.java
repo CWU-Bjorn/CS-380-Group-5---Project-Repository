@@ -8,7 +8,7 @@ public class DatabaseConnection {
      *Method that connects to the database by passing the url of the file into it
      */
        private static Connection connect() throws SQLException{     
-           return DriverManager.getConnection("jdbc:sqlite:CS380Project/380DatabaseSQLite.db");
+           return DriverManager.getConnection("jdbc:sqlite:380DatabaseSQLite.db");
         }
 
     /**
@@ -61,6 +61,7 @@ public class DatabaseConnection {
                     return new Player(
                             saveslotRotation,
                             resultSet.getString("Pname"),
+                            resultSet.getInt("PlayerHP"),
                             resultSet.getString("PWord"),
                             resultSet.getString("Item1"),
                             resultSet.getString("Item2"),
