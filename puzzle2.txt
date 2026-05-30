@@ -1,4 +1,0 @@
-===Puzzle 3===
-===Solve===
-werewolf
-===EOF===

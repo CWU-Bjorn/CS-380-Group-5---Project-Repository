@@ -1,0 +1,10 @@
+soup
+broom
+dagger
+sword
+bomb
+bread
+mutton
+noodles
+potatoes
+armor
