@@ -1,10 +1,15 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="file://$USER_HOME$/OneDrive/Desktop/javafx-sdk-26.0.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../../Desktop/javafx-sdk-26.0.1/lib" />
+      <root url="file://$APPLICATION_HOME_DIR$/lib/javafx-sdk-26.0.1/lib" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
-    <jarDirectory url="file://$USER_HOME$/OneDrive/Desktop/javafx-sdk-26.0.1/lib" recursive="false" />
+    <SOURCES>
+      <root url="file://$APPLICATION_HOME_DIR$/lib/javafx-sdk-26.0.1" />
+    </SOURCES>
+    <jarDirectory url="file://$APPLICATION_HOME_DIR$/lib/javafx-sdk-26.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../../Desktop/javafx-sdk-26.0.1/lib" recursive="false" />
+    <jarDirectory url="file://$APPLICATION_HOME_DIR$/lib/javafx-sdk-26.0.1" recursive="false" type="SOURCES" />
   </library>
 </component>
