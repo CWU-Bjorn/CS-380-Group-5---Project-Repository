@@ -79,12 +79,15 @@ public class Player{
         return saveslotRotation;
     }
 
-    /*Setter - setHP. For the enemy event, The enemy attacks and affects the players health
-    To affect the player, we need some kind of way to reduce health - Nelson B.*/
+    /**
+     * Setter - setHP. For the enemy event, The enemy attacks and affects the players health
+    To affect the player, we need some kind of way to reduce health - Nelson B.
+     */
 
     public void setPlayerHP(int healthAffect){
         this.playerHP += healthAffect;
     }
+
 
 
     /**
