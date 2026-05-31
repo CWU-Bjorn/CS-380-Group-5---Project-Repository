@@ -2,14 +2,16 @@ package UserInterface;
 /**
  * Import of the necessary stuff, I just imported all of the libraries so this would probably need to change later for efficiency
  */
+import java.nio.file.Paths;
 import java.sql.*;
 public class DatabaseConnection {
     /**
      *Method that connects to the database by passing the url of the file into it
      */
-       private static Connection connect() throws SQLException{     
-           return DriverManager.getConnection("jdbc:sqlite:380DatabaseSQLite.db");
+       private static Connection connect() throws SQLException{
+           return DriverManager.getConnection("jdbc:sqlite:380DatabaseSQLiteFinal.db");
         }
+
 
     /**
      * Finds the table within the database
@@ -61,14 +63,12 @@ public class DatabaseConnection {
                     return new Player(
                             saveslotRotation,
                             resultSet.getString("Pname"),
-                            resultSet.getInt("PlayerHP"),
+                            resultSet.getInt("playerHealth"),
                             resultSet.getString("PWord"),
-                            resultSet.getString("Item1"),
-                            resultSet.getString("Item2"),
-                            resultSet.getString("Item3"),
-                            resultSet.getString("Item4"),
-                            resultSet.getString("Item5"),
-                            resultSet.getString("Item6"),
+                            resultSet.getInt("Sword") == 1,
+                            resultSet.getInt("keyInGame") == 1,
+                            resultSet.getInt("Shield") == 1,
+                            resultSet.getInt("food") == 1,
                             resultSet.getInt("Currency"),
                             resultSet.getInt("NumberObstaclesDone")
                     );
@@ -79,4 +79,48 @@ public class DatabaseConnection {
             }
             return null;
     }
+
+    public static boolean updateMethodForItems(int saveslotRotation, String saveslotName, boolean itemDesignation){
+
+        String foundTable = findsTable(saveslotRotation);
+        String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
+        String columnName = grabbingInfo(saveslotName);
+
+        String sql = "UPDATE " + foundTable + " SET " + columnName + "= ?" + " WHERE " + foundPrimaryKey + "= ?";
+
+        try(
+                Connection connection = connect();
+                PreparedStatement statement = connection.prepareStatement(sql);
+                ){
+            statement.setInt(1, itemDesignation ? 1 : 0);
+
+            statement.setInt(2, saveslotRotation);
+
+            int result = statement.executeUpdate();
+
+            return (result > 0);
+
+        } catch (SQLException e){
+            System.out.println("Update not sucessful");
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    private static String grabbingInfo(String item){
+        switch(item){
+            case "Sword":
+                return "Sword";
+            case "Key":
+                return "keyInGame";
+            case "Shield":
+                return "Shield";
+            case "Food":
+                return "food";
+            default:
+                throw new IllegalArgumentException("None existant item: " + item);
+
+        }
+    }
+
         }

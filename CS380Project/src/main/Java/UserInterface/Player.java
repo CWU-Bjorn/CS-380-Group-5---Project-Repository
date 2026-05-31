@@ -13,31 +13,27 @@ public class Player{
     private String playerName;
     private int playerHP = 25;
     private String passwordForSaveToSave;
-    private String storedItem1;
-    private String storedItem2;
-    private String storedItem3;
-    private String storedItem4;
-    private String storedItem5;
-    private String storedItem6;
+    private boolean Sword;
+    private boolean keyIngame;
+    private boolean Shield;
+    private boolean food;
     private int currencyAmount;
     private int NumberOfCompleatedObstacles;
 
     /**
      * This is the constructor, built on the many different declared items above.
      */
-    public Player(int saveslotRotation, String playerName, int playerHP, String passwordForSaveToSave, String storedItem1, String storedItem2,
-                  String storedItem3, String storedItem4, String storedItem5, String storedItem6, int currencyAmount, int NumberOfCompleatedObstacles){
+    public Player(int saveslotRotation, String playerName, int playerHP, String passwordForSaveToSave, boolean Sword, boolean keyIngame,
+                  boolean Shield, boolean food, int currencyAmount, int NumberOfCompleatedObstacles){
 
         this.saveslotRotation = saveslotRotation;
         this.playerName = playerName;
         this.playerHP = playerHP;
         this.passwordForSaveToSave = passwordForSaveToSave;
-        this.storedItem1 = storedItem1;
-        this.storedItem2 = storedItem2;
-        this.storedItem3 = storedItem3;
-        this.storedItem4 = storedItem4;
-        this.storedItem5 = storedItem5;
-        this.storedItem6 = storedItem6;
+        this.Sword = Sword;
+        this.keyIngame = keyIngame;
+        this.Shield = Shield;
+        this.food = food;
         this.currencyAmount = currencyAmount;
         this.NumberOfCompleatedObstacles = NumberOfCompleatedObstacles;
 
@@ -53,24 +49,6 @@ public class Player{
     public int getPlayerHP(){return playerHP;}
     public String getPasswordForSaveToSave(){
         return passwordForSaveToSave;
-    }
-    public String getStoredItem1(){
-        return storedItem1;
-    }
-    public String getStoredItem2(){
-        return storedItem2;
-    }
-    public String getStoredItem3(){
-        return storedItem3;
-    }
-    public String getStoredItem4(){
-        return storedItem4;
-    }
-    public String getStoredItem5(){
-        return storedItem5;
-    }
-    public String getStoredItem6(){
-        return storedItem6;
     }
     public int getCurrencyAmount(){
         return currencyAmount;
@@ -95,12 +73,43 @@ public class Player{
      */
 
     public String getDisplayToGUI(){
-        return
-                "\nAmount of currency in satchel: " + currencyAmount +
-                "\nItems collected: " + storedItem1 + ", " + storedItem2 + ", " + storedItem3
-                        + ", " + storedItem4 + ", " + storedItem5 + ", " + storedItem6
-                        + "\nPlayer's Health: " + playerHP;
+        StringBuilder display = new StringBuilder();
 
+        display.append("Player Name: ").append(playerName).append("\n");
+        display.append("Health: ").append(playerHP).append("\n");
+        display.append("Currency: ").append(currencyAmount).append("\n");
+        display.append("Obstacles finished: ").append(NumberOfCompleatedObstacles).append("\n");
+
+        display.append("Inventory:\n");
+
+        boolean absentItems = false;
+
+        if(Sword){
+            display.append(" Sword ");
+            absentItems = true;
+        }
+
+        if(keyIngame){
+            display.append(" Key ");
+            absentItems = true;
+        }
+
+        if(Shield){
+            display.append(" Shield ");
+            absentItems = true;
+        }
+
+        if(food){
+            display.append(" food ");
+            absentItems = true;
+        }
+
+        if(!absentItems){
+            display.append("You have yet to quest and venture out, inventory empty!");
+
+        }
+
+        return display.toString();
     }
 
     /**
