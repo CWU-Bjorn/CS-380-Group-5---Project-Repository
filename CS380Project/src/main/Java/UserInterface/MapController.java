@@ -48,6 +48,11 @@ public class MapController {
         SceneManager.switchScene("saveSelect.fxml");
     }
 
+    @FXML
+    private void onShopClick() {
+        SceneManager.switchScene("shop.fxml");
+    }
+
     private void playerUpdate(){
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
