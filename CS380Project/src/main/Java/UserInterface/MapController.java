@@ -65,7 +65,7 @@ public class MapController {
     private void UpdateForSwordToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean addedSword = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Sword", true);
+        boolean addedSword = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Sword", true,-20);
 
         if(addedSword){
             playerUpdate();
@@ -77,7 +77,7 @@ public class MapController {
     private void UpdateForSwordToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean removeSword = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Sword", false);
+        boolean removeSword = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Sword", false,20);
 
         if(removeSword){
             playerUpdate();
@@ -89,7 +89,7 @@ public class MapController {
     private void UpdateForKeyToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean addedKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", true);
+        boolean addedKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", true,-30);
 
         if(addedKey){
             playerUpdate();
@@ -101,7 +101,7 @@ public class MapController {
     private void UpdateForKeyToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean removeKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", false);
+        boolean removeKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", false,30);
 
         if(removeKey){
             playerUpdate();
@@ -113,7 +113,7 @@ public class MapController {
     private void UpdateForShieldToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean addedShield = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Shield", true);
+        boolean addedShield = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Shield", true,-25);
 
         if(addedShield){
             playerUpdate();
@@ -125,7 +125,7 @@ public class MapController {
     private void UpdateForShieldToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean removeShield = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Shield", false);
+        boolean removeShield = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Shield", false,25);
 
         if(removeShield){
             playerUpdate();
@@ -137,7 +137,7 @@ public class MapController {
     private void UpdateForFoodToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean addedFood = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Food", true);
+        boolean addedFood = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Food", true, -5);
 
         if(addedFood){
             playerUpdate();
@@ -149,14 +149,13 @@ public class MapController {
     private void UpdateForFoodToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean removeFood = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Food", false);
+        boolean removeFood = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Food", false, 5);
 
         if(removeFood){
             playerUpdate();
         }
 
     }
-
     }
 
 

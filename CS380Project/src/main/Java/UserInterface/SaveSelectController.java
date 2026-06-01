@@ -60,17 +60,6 @@ public class SaveSelectController {
 
             System.out.println("Good Test: " + CurrentPlayerSessionHelperClass.getCurrentPlayer());
 
-//            String getPlayerNameVar = clientSideUser.getPlayerName();
-//            System.out.println("Character Name: " + getPlayerNameVar);
-//
-//            int NumberOfCompleatedObstaclesVar = clientSideUser.getNumberOfCompleatedObstacles();
-//            System.out.println("Save progress indicator: " + NumberOfCompleatedObstaclesVar);
-//
-//            int currencyAmountVar = clientSideUser.getCurrencyAmount();
-//            System.out.println("Money in coin purse: " + currencyAmountVar);
-
-
-
             SceneManager.switchScene("map.fxml");
         }else{
             // creates array of message labels and prints to the correct one based on saveSlot

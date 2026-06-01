@@ -80,21 +80,31 @@ public class DatabaseConnection {
             return null;
     }
 
-    public static boolean updateMethodForItems(int saveslotRotation, String saveslotName, boolean itemDesignation){
+    public static boolean updateMethodForItems(int saveslotRotation, String saveslotName, boolean itemDesignation, int currencyUpdate){
 
         String foundTable = findsTable(saveslotRotation);
         String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
         String columnName = grabbingInfo(saveslotName);
+        int checkIfUserAlreadyHadItem;
 
-        String sql = "UPDATE " + foundTable + " SET " + columnName + "= ?" + " WHERE " + foundPrimaryKey + "= ?";
+        if(itemDesignation){
+            checkIfUserAlreadyHadItem = 0;
+        } else{
+            checkIfUserAlreadyHadItem = 1;
+        }
+
+        String sql = "UPDATE " + foundTable + " SET " + columnName + "= ?, Currency = Currency + ?" + " WHERE " + foundPrimaryKey + "= ?" + " AND " + columnName + "= ?" + " AND Currency + ? >= 0";
 
         try(
                 Connection connection = connect();
                 PreparedStatement statement = connection.prepareStatement(sql);
                 ){
-            statement.setInt(1, itemDesignation ? 1 : 0);
 
-            statement.setInt(2, saveslotRotation);
+            statement.setInt(1, itemDesignation ? 1 : 0);
+            statement.setInt(2, currencyUpdate);
+            statement.setInt(3, saveslotRotation);
+            statement.setInt(4, checkIfUserAlreadyHadItem);
+            statement.setInt(5, currencyUpdate);
 
             int result = statement.executeUpdate();
 
