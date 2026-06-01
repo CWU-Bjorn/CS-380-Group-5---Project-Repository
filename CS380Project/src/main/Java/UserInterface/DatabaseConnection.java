@@ -80,6 +80,11 @@ public class DatabaseConnection {
             return null;
     }
 
+    /**
+     * Update for the items within the game. This method allows for the user to flip the boolean values from true to false and back again. It also is what
+     * ties together the currency attribute to be able to give each item a currency value that on selling or buying the item the currency amount is added or
+     * subtracted from the currency variable
+     */
     public static boolean updateMethodForItems(int saveslotRotation, String saveslotName, boolean itemDesignation, int currencyUpdate){
 
         String foundTable = findsTable(saveslotRotation);
@@ -116,7 +121,7 @@ public class DatabaseConnection {
             return false;
         }
     }
-
+    //Helper method for the updateMethofForitems
     private static String grabbingInfo(String item){
         switch(item){
             case "Sword":
@@ -130,6 +135,32 @@ public class DatabaseConnection {
             default:
                 throw new IllegalArgumentException("None existant item: " + item);
 
+        }
+    }
+
+    /**
+     * This specifically works with the playerHealth and what happens when you eat the food. Before the food would just be added to the currency but that made no sense.
+     * To fix that this method adds to the player hp for the food eaten rather than just selling it back.
+     */
+    public static boolean updateToFood(int saveslotRotation, int playerHP){
+        String foundTable = findsTable(saveslotRotation);
+        String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
+        String columnName = grabbingInfo("Food");
+
+        String sql = "UPDATE " + foundTable + " SET " + columnName + "= 0, playerHealth = playerHealth + ?"+ " WHERE " + foundPrimaryKey + "= ?" + " AND " + columnName + "= 1";
+
+        try( Connection connection = connect();
+             PreparedStatement statement = connection.prepareStatement(sql);
+             ){
+            statement.setInt(1,playerHP);
+            statement.setInt(2,saveslotRotation);
+            int result = statement.executeUpdate();
+
+            return (result > 0);
+
+        }catch (SQLException e){
+            e.printStackTrace();
+            return false;
         }
     }
 

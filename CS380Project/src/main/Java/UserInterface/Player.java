@@ -39,6 +39,9 @@ public class Player{
 
     }
 
+    /**
+     * Currently not used but will be once combat scenarios are implemented
+     */
     public int getNumberOfCompleatedObstacles(){
         return NumberOfCompleatedObstacles;
     }
