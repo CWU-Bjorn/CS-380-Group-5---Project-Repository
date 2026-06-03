@@ -7,10 +7,40 @@ import javafx.scene.control.TextArea;
  * this class is where the backend logic for the map goes
  */
 public class MapController {
+    
+ private boolean doorOpened = false;
 
 
     @FXML
-    private void completion(){}
+    private void completion(){
+
+        Player player =
+                CurrentPlayerSessionHelperClass.getCurrentPlayer();
+
+        if (player == null) return;
+
+        int obstacles = player.getNumberOfCompleatedObstacles();
+
+        boolean hasWon =
+                player.isDoorOpened() && obstacles >= 3;
+
+        if (hasWon) {
+
+            SceneManager.switchScene("endGame.fxml");
+
+        } else {
+
+            textAreaForInventory.setText(
+                    "You cannot finish yet!\n\n" +
+                            "Requirements:\n" +
+                            "- Open the door\n" +
+                            "- Defeat at least 3 enemies\n\n" +
+                            "Progress:\n" +
+                            "Obstacles: " + obstacles + "/3\n" +
+                            "Door opened: " + player.isDoorOpened()
+            );
+        }
+    }
 
     /**
      * changes scene to Gameplay.fxml when selecting location
@@ -36,7 +66,7 @@ public class MapController {
         }
 
     @FXML
-    private void onEnterLocationClick() {
+    private void onEnterConflictClick() {
         SceneManager.switchScene("gameplay.fxml");
     }
 
@@ -196,17 +226,29 @@ public class MapController {
      */
     @FXML
     public void keyChecking(){
-        Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean hasKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", false,0);
+        Player currentPlayerUpdate =
+                CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        if(hasKey){
+        boolean hasKey =
+                DatabaseConnection.updateMethodForItems(
+                        currentPlayerUpdate.getSaveslotRotation(),
+                        "Key",
+                        false,
+                        0
+                );
+
+        if (hasKey) {
+
+            currentPlayerUpdate.setDoorOpened(true);
+
             textAreaForInventory.setText("You have opened the door!");
-        }else{
+
+        } else {
+
             textAreaForInventory.setText("The door blocks your path");
         }
     }
-
     }
 
 

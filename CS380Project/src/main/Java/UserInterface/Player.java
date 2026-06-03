@@ -19,6 +19,8 @@ public class Player{
     private boolean food;
     private int currencyAmount;
     private int NumberOfCompleatedObstacles;
+    private boolean doorOpened;
+
 
     /**
      * This is the constructor, built on the many different declared items above.
@@ -44,6 +46,14 @@ public class Player{
      */
     public int getNumberOfCompleatedObstacles(){
         return NumberOfCompleatedObstacles;
+    }
+    
+    public boolean isDoorOpened() {
+        return doorOpened;
+    }
+
+    public void setDoorOpened(boolean doorOpened) {
+        this.doorOpened = doorOpened;
     }
 
     //Getters
@@ -126,15 +136,19 @@ public class Player{
         return passwordForSaveToSave != null && passwordForSaveToSave.equals(userChecking);
     }
 
-    /**
-     * Made to see if the save slot is currently in use yet. However, since the test database is fully populated with data I don't call this anywhere yet.
-     * Not sure if it works
-     */
-    public boolean emptySaveCheck(){
-        if(playerName==null || playerName.isBlank()){
+    public boolean passwordCheck(){
+        return passwordForSaveToSave != null && !passwordForSaveToSave.isBlank();
+    }
 
-            System.out.println("Save slot is open!");
+    /**
+     *Before this method player damage was fixed, this lets the sword add another damage if the player has it
+     */
+    public int attackDamageForModification(){
+        int damageModification = 1;
+
+        if(Sword){
+            damageModification += 1;
         }
-        return true;
+        return damageModification;
     }
 }
