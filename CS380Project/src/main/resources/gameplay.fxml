@@ -18,7 +18,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.GameplayController">
    <children>
       <ImageView fitHeight="491.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
@@ -39,15 +38,10 @@
                         <Font name="Candara" size="12.0" />
                      </font>
                   </Button>
-                  <Label fx:id="enemyNameDisp" text="Enemy Name" textFill="WHITE" />
-                  <Label fx:id="enemyAttackPointDisp" text="Enemy Attack Point" textFill="WHITE" />
-                  <Label fx:id="enemyHPDisp" text="Enemy Health" textFill="WHITE" />
       
-                      <Region HBox.hgrow="ALWAYS" />
-      
-                      <VBox alignment="CENTER_LEFT" spacing="5.0" style="-fx-background-color: #1e90ff; -fx-border-color: black; -fx-border-width: 2; -fx-padding: 10;">
+                      <VBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="202.0" spacing="5.0" style="-fx-background-color: #1e90ff; -fx-border-color: black; -fx-border-width: 2; -fx-padding: 10;">
                           <children>
-                              <Label fx:id="playerNameLabel" style="-fx-font-weight: bold; -fx-font-size: 14;" text="Player       Lv. 25">
+                              <Label fx:id="enemyNameDisp" style="-fx-font-weight: bold; -fx-font-size: 14;" text="Enemy Name">
                            <font>
                               <Font name="Candara" size="12.0" />
                            </font>
@@ -55,11 +49,28 @@
                               <HBox alignment="CENTER_LEFT" spacing="8.0">
                                   <children>
                                       <Label style="-fx-font-weight: bold; -fx-font-size: 12;" text="HP:" />
-                                      <ProgressBar fx:id="healthBar" prefHeight="15.0" prefWidth="140.0" progress="0.75" style="-fx-accent: #2ecc71; -fx-control-inner-background: #eeeeee;" />
+                                      <ProgressBar fx:id="enemyBar" prefHeight="15.0" prefWidth="140.0" progress="0.75" style="-fx-accent: #2ecc71; -fx-control-inner-background: #eeeeee;" />
                                   </children>
                               </HBox>
                           </children>
                       </VBox>
+      
+                      <Region HBox.hgrow="ALWAYS" />
+                  <VBox alignment="CENTER_LEFT" prefHeight="62.0" prefWidth="202.0" spacing="5.0" style="-fx-background-color: #1e90ff; -fx-border-color: black; -fx-border-width: 2; -fx-padding: 10;">
+                     <children>
+                        <Label fx:id="playerNameLabel" style="-fx-font-weight: bold; -fx-font-size: 14;" text="Player       Lv. 25">
+                           <font>
+                              <Font name="Candara" size="12.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER_LEFT" spacing="8.0">
+                           <children>
+                              <Label style="-fx-font-weight: bold; -fx-font-size: 12;" text="HP:" />
+                              <ProgressBar fx:id="healthBar" prefHeight="15.0" prefWidth="140.0" progress="0.75" style="-fx-accent: #2ecc71; -fx-control-inner-background: #eeeeee;" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
                   </children>
               </HBox>
           </top>

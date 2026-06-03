@@ -27,7 +27,6 @@ public class Enemy {
     public String enemyAttack(String action, Player player){
 
         StringBuilder actionText = new StringBuilder();
-
         Random randChance = new Random();
 
         switch(action.toLowerCase()){
@@ -44,9 +43,13 @@ public class Enemy {
                 return "You've decided to flee!";
             case "shield":
                 actionText.append("You decided to Shield\n");
-                break;
+                return actionText.toString();
             case "heal":
                 actionText.append("You decided to Heal\n");
+                player.setPlayerHP(5);
+                if(player.getPlayerHP() > 25){
+                    player.setPlayerHP(25 -  player.getPlayerHP());
+                }
                 break;
 
         }
