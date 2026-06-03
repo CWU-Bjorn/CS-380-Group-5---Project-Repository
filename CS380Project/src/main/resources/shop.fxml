@@ -16,7 +16,10 @@
             <Image url="@lightForest.png" />
          </image>
       </ImageView>
-      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="231.0" layoutY="65.0" prefHeight="120.0" prefWidth="245.0" style="-fx-border-color: black;" text="You just came across the local merchant. What wares will you purchase today?" wrapText="true" />
+      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="231.0" layoutY="65.0" prefHeight="120.0" prefWidth="245.0" style="-fx-border-color: black;" text="You just came across the local merchant. What wares will you purchase today?" wrapText="true">
+         <font>
+            <Font name="Cambria" size="16.0" />
+         </font></TextArea>
       <Button layoutX="14.0" layoutY="90.0" minHeight="35.0" mnemonicParsing="false" onAction="#UpdateForFoodToGUIRemove" prefHeight="35.0" prefWidth="75.0" styleClass="shopInteract-button" text="Eat Food" />
       <Button layoutX="14.0" layoutY="150.0" mnemonicParsing="false" onAction="#checkInventoryClick" prefHeight="35.0" prefWidth="114.0" styleClass="shopInteract-button" text="CheckInventory" />
       <ScrollPane layoutX="245.0" layoutY="225.0" prefHeight="225.0" prefWidth="245.0">
