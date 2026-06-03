@@ -33,7 +33,10 @@ public class Enemy {
             case "attack":
                 int chance = randChance.nextInt(10);
                 if (chance >=5){
-                    health -= 2;
+
+                    int damageModifyerCalc = player.attackDamageForModification();
+
+                    health -= damageModifyerCalc;
                 }
                 else{
                     actionText.append("No Luck! You've Missed!\n");

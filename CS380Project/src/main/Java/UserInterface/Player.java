@@ -130,6 +130,17 @@ public class Player{
      * Made to see if the save slot is currently in use yet. However, since the test database is fully populated with data I don't call this anywhere yet.
      * Not sure if it works
      */
+
+    public int attackDamageForModification(){
+        int damageModification = 1;
+
+        if(Sword){
+            damageModification += 1;
+        }
+        return damageModification;
+    }
+
+
     public boolean emptySaveCheck(){
         if(playerName==null || playerName.isBlank()){
 
