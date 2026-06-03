@@ -178,7 +178,23 @@
     -fx-text-fill: black;
 }
 
-/* Action Buttons  */
+
+/* button for door on map gui*/
+.mapDoor-button {
+    -fx-background-color: #7e7e7e;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #7e7e7e;
+    -fx-cursor: hand;
+}
+
+/*  */
+.mapDoor-button:hover {
+    -fx-background-color: #989898;
+    -fx-text-fill:  #989898;
+}
+
+/* styles the dialogue box in gameplay  */
 .gameplayDialogue-button {
     -fx-background-color: transparent;
     -fx-border-color: black;
