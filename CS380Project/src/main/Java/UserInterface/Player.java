@@ -46,6 +46,7 @@ public class Player{
         return NumberOfCompleatedObstacles;
     }
 
+    //Getters
     public String getPlayerName(){
         return playerName;
     }
@@ -58,6 +59,9 @@ public class Player{
     }
     public int getSaveslotRotation(){
         return saveslotRotation;
+    }
+    public boolean getKey(){
+        return keyIngame;
     }
 
     /**

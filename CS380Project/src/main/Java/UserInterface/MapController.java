@@ -185,6 +185,23 @@ public class MapController {
         }
 
     }
+
+    /**
+     * This is what is linked to the door button. This uses the key if the player has it thuis fulfilling the other requirment for compleating the gmae. 
+     */
+    @FXML
+    public void keyChecking(){
+        Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
+
+        boolean hasKey = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Key", false,0);
+
+        if(hasKey){
+            textAreaForInventory.setText("You have opened the door!");
+        }else{
+            textAreaForInventory.setText("The door blocks your path");
+        }
+    }
+
     }
 
 

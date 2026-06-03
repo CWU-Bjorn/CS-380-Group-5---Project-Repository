@@ -3,6 +3,10 @@ package UserInterface;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 
+import javax.xml.crypto.Data;
+
+import static UserInterface.DatabaseConnection.obstacleUpdates;
+
 /**
  * this is where the backend logic for the gameplay will go
  */
@@ -20,6 +24,7 @@ public class GameplayController {
 
     private Enemy enemy;
     private Player player;
+    private boolean flipForObstacles;
 
     @FXML public void initialize() {
         enemy = new Enemy("Werewolf", 30, -2);
@@ -54,10 +59,30 @@ public class GameplayController {
 
         dialogueText.appendText(actionTaken + "\n");
         updateUI();
+        /**
+         * Checks the enemy health and implements the obstacles compleated by one for every enemy compleated. This will tie into the end of the game and how the player
+         * wins the game.
+         */
+        if(enemy.getHealth() <= 0 && !flipForObstacles) {
+            flipForObstacles = true;
 
-        if(enemy.getHealth() <= 0){
-            dialogueText.setText("===Enemy Defeated===");
+            boolean addingToObsticle = DatabaseConnection.obstacleUpdates(player.getSaveslotRotation());
+
+            if (addingToObsticle) {
+
+                Player playerRefresh = DatabaseConnection.loadPlayer(player.getSaveslotRotation());
+
+
+            if (playerRefresh != null) {
+                CurrentPlayerSessionHelperClass.setCurrentPlayer(playerRefresh);
+                player = playerRefresh;
+            }
+                dialogueText.setText("===Enemy Defeated===");
+            System.out.println("Compleated: " + player.getNumberOfCompleatedObstacles());
+        }
+            updateUI();
             disableButtons();
+            return;
         }
 
         if(player.getPlayerHP() <= 0){
