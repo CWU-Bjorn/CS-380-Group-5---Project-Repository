@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Implementation of obstacles compleated up ticker. Now we can tie this into the end schreen so that player can finish the game." />
+    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Implementation of obstacles compleated up ticker. Now we can tie this into the end schreen so that player can finish the game.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/resources/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/resources/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/resources/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/resources/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Puzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Puzzle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Puzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Puzzle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/puzzle_wordbank.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/resources/puzzle_wordbank.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,6 +96,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\src\main\resources" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea\libraries" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository" />

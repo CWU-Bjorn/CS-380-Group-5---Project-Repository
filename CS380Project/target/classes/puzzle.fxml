@@ -6,8 +6,8 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="498.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.PuzzleController">
    <children>
       
-      <Button fx:id="confirm" layoutX="383.0" layoutY="326.0" mnemonicParsing="false" onAction="#puzzleEvent" prefHeight="26.0" prefWidth="87.0" text="Confirm" />
-      <TextField fx:id="wordGuess" layoutX="206.0" layoutY="326.0" onAction="#handleGu" promptText="Enter a guess!" />
+      <Button fx:id="confirm" layoutX="383.0" layoutY="326.0" mnemonicParsing="false" onAction="#handleGuess" prefHeight="26.0" prefWidth="87.0" text="Confirm" />
+      <TextField fx:id="wordGuess" layoutX="206.0" layoutY="326.0" onAction="#handleGuess" promptText="Enter a guess!" />
       <Label layoutX="80.0" layoutY="331.0" text="Guess That Word!" />
       <Label fx:id="hiddenWordDisplay" layoutX="208.0" layoutY="198.0" prefHeight="60.0" prefWidth="150.0" text="Label" />
    </children>
