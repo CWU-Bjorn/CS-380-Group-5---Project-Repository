@@ -5,17 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy.">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/380DatabaseSQLiteFinal.db" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/380DatabaseSQLiteFinal.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,33 +64,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Application.executor": "Debug",
-    "Application.Launcher.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NPCDriver.executor": "Run",
-    "Application.eventDriver.executor": "Run",
-    "Application.gameProject.executor": "Run",
-    "Application.puzzleDriver.executor": "Run",
-    "Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nelso/OneDrive/Documents/School Documents/CS 420/Assignment 3/CS-380-Group-5---Project-Repository",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NPCDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.eventDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Application.gameProject.executor&quot;: &quot;Run&quot;,
+    &quot;Application.puzzleDriver.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelso/OneDrive/Documents/School Documents/CS 420/Assignment 3/CS-380-Group-5---Project-Repository&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea" />
@@ -97,7 +99,7 @@
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\Puzzle" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.gameProject">
     <configuration name="gameProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
       <option name="MAIN_CLASS_NAME" value="UserInterface.Application" />
@@ -107,6 +109,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrentPlayerSessionHelperClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UserInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="UserInterface" />
+      <option name="MAIN_CLASS_NAME" value="UserInterface.CurrentPlayerSessionHelperClassTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CurrentPlayerSessionHelperClassTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
