@@ -46,14 +46,57 @@ public class SaveSelectController {
         tryLogin(3, saveSlotThree.getText());
     }
 
-    private void tryLogin(int saveSlotID, String password){
+    @FXML
+    private void initialize(){
 
+        showingEmptySlotFromLabel(1,message1);
+        showingEmptySlotFromLabel(2,message2);
+        showingEmptySlotFromLabel(3,message3);
+    }
+
+    /**
+     * This is what allows the player to access the game by loading their save, if there is no password then the password the player
+     * enters will become the password for that save. If there is a password and they enter the correct one then the player can access
+     * the save and associated information.
+     */
+    private void showingEmptySlotFromLabel(int saveSlotID, Label label){
 
         Player clientSideUser = DatabaseConnection.loadPlayer(saveSlotID);
+
+        if(!clientSideUser.passwordCheck()){
+            label.setText("Empty save slot");
+
+        }
+
+    }
+
+    private void tryLogin(int saveSlotID, String password){
+
+        if(password == null || password.isBlank()){
+            message.setText("Please enter your password: ");
+            return;
+        }
+        Player clientSideUser = DatabaseConnection.loadPlayer(saveSlotID);
+
+
 
         if(clientSideUser == null){
             message.setText("Error in loading save slot number: " + saveSlotID);
             return;
+        }
+
+        if(!clientSideUser.passwordCheck()){
+            boolean newSave = DatabaseConnection.emptySave(saveSlotID, password);
+
+            if(newSave){
+                Player saveNowLocked = DatabaseConnection.loadPlayer(saveSlotID);
+
+                if(saveNowLocked != null){
+                    CurrentPlayerSessionHelperClass.setCurrentPlayer(saveNowLocked);
+                    message.setText("Save slot has been successful!");
+                    SceneManager.switchScene("map.fxml");
+                }
+            }
         }
 
         if(clientSideUser.isPasswordCorrect(password)){

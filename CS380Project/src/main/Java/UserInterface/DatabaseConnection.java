@@ -213,4 +213,26 @@ public class DatabaseConnection {
         return false;
     }
 }
+
+public static boolean emptySave(int saveslotRotation, String newPasswordVar){
+        String foundTable = findsTable(saveslotRotation);
+        String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
+
+    String sql = "UPDATE " + foundTable + " SET  Pname = ?, " + " PWord = ?, " + " Sword = 0, " + " keyInGame = 0, "+ " Shield = 0, "+ " food = 0, " + " Currency = 0, "  + " NumberObstaclesDone = 0, " + "PlayerHealth = 25 " + " WHERE " + foundPrimaryKey + "= ?";
+
+    try(
+                Connection connection = connect();
+                PreparedStatement statement = connection.prepareStatement(sql);
+                ){
+        statement.setString(1, "Character " + saveslotRotation);
+        statement.setString(2, newPasswordVar);
+        statement.setInt(3, saveslotRotation);
+
+        int result = statement.executeUpdate();
+        return (result > 0);
+        }catch(SQLException e){
+            e.printStackTrace();
+            return false;
+        }
+}
         }
