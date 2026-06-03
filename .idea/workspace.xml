@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/.idea/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../../Exports" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3E3huo8i9XDfKPB3fXIIlkj8y4O" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Debug",
+    "Application.Launcher.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NPCDriver.executor": "Run",
+    "Application.eventDriver.executor": "Run",
+    "Application.gameProject.executor": "Run",
+    "Application.puzzleDriver.executor": "Run",
+    "Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "NelsonImplements",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/nelso/OneDrive/Documents/School Documents/CS 420/Assignment 3/CS-380-Group-5---Project-Repository",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea" />
+      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea\libraries" />
+      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository" />
+      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\Puzzle" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="gameProject" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="UserInterface.Launcher" />
+      <module name="gameProject" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS380Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33514.17" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="" />
+      <created>1779413386028</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1779413386028</updated>
+    </task>
+    <servers />
+  </component>
+</project>
