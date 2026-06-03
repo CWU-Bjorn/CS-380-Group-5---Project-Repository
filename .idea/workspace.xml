@@ -4,113 +4,47 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="" />
-=======
-    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="">
+    <list default="true" id="368a49b5-929e-4692-99dc-f4f8d5f6bad3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" afterDir="false" />
     </list>
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExportToHTMLSettings">
-    <option name="printScope" value="4" />
-    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../../../../Exports" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "NBNStacked"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;NBNStacked&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository.git",
-    "accountId": "7988a271-848b-4878-9022-6a32ca6d4176"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository.git&quot;,
+    &quot;accountId&quot;: &quot;7988a271-848b-4878-9022-6a32ca6d4176&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0,
+  &quot;associatedIndex&quot;: 1,
   &quot;fromUser&quot;: false
 }</component>
-  <component name="ProjectId" id="3E3huo8i9XDfKPB3fXIIlkj8y4O" />
+  <component name="ProjectId" id="3Ebfe1VZMIvuoKhIDaQVt6a22h8" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Application.executor": "Debug",
-    "Application.Launcher.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.NPCDriver.executor": "Run",
-    "Application.eventDriver.executor": "Run",
-    "Application.gameProject.executor": "Run",
-    "Application.puzzleDriver.executor": "Run",
     "Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-<<<<<<< Updated upstream
-    "git-widget-placeholder": "#19 on NelsonImplements",
-=======
-    "git-widget-placeholder": "main",
->>>>>>> Stashed changes
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/nelso/OneDrive/Documents/School Documents/CS 420/Assignment 3/CS-380-Group-5---Project-Repository",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "git-widget-placeholder": "NelsonImplements",
+    "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea" />
-      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea\libraries" />
-      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository" />
-      <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\Puzzle" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="gameProject" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="UserInterface.Launcher" />
-      <module name="gameProject" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS380Project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -120,11 +54,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="" />
-      <created>1779413386028</created>
+      <changelist id="368a49b5-929e-4692-99dc-f4f8d5f6bad3" name="Changes" comment="" />
+      <created>1780452282282</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1779413386028</updated>
+      <updated>1780452282282</updated>
     </task>
     <servers />
   </component>
