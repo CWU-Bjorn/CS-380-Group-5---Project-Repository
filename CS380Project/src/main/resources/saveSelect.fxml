@@ -51,13 +51,13 @@
             <Font name="Candara" size="16.0" />
          </font>
       </Text>
-      <Button mnemonicParsing="false" onAction="#onSelectSaveClick" prefHeight="40.0" prefWidth="103.0" text="SWITCHTOMAP" textAlignment="CENTER" />
-      <Button layoutX="442.0" layoutY="111.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
-      <Button layoutX="442.0" layoutY="311.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
-      <Button layoutX="442.0" layoutY="211.0" mnemonicParsing="false" text="DELETE" textFill="RED" />
-      <Button layoutX="442.0" layoutY="141.0" mnemonicParsing="false" onAction="#clickUsageForSaveOne" prefHeight="26.0" prefWidth="48.0" text="Enter" />
-      <Button layoutX="442.0" layoutY="242.0" mnemonicParsing="false" onAction="#clickUsageForSaveTwo" text="Enter" />
-      <Button layoutX="442.0" layoutY="342.0" mnemonicParsing="false" onAction="#clickUsageForSaveThree" text="Enter" />
+      <Button mnemonicParsing="false" onAction="#onSelectSaveClick" prefHeight="40.0" prefWidth="120.0" styleClass="map-button" text="SWITCHTOMAP" textAlignment="CENTER" />
+      <Button layoutX="435.0" layoutY="126.0" mnemonicParsing="false" styleClass="saveDelete-button" text="DELETE" textFill="RED" />
+      <Button layoutX="435.0" layoutY="326.0" mnemonicParsing="false" styleClass="saveDelete-button" text="DELETE" textFill="RED" />
+      <Button layoutX="435.0" layoutY="226.0" mnemonicParsing="false" styleClass="saveDelete-button" text="DELETE" textFill="RED" />
+      <Button layoutX="375.0" layoutY="138.0" mnemonicParsing="false" onAction="#clickUsageForSaveOne" styleClass="saveEnter-button" text="Enter" />
+      <Button layoutX="375.0" layoutY="240.0" mnemonicParsing="false" onAction="#clickUsageForSaveTwo" styleClass="saveEnter-button" text="Enter" />
+      <Button layoutX="375.0" layoutY="338.0" mnemonicParsing="false" onAction="#clickUsageForSaveThree" styleClass="saveEnter-button" text="Enter" />
       <Label fx:id="message" layoutX="92.0" layoutY="67.0" prefHeight="20.0" prefWidth="422.0" textAlignment="CENTER">
          <font>
             <Font size="14.0" />
