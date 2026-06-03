@@ -64,43 +64,6 @@ public class Enemy {
         }
         return actionText.toString();
 
-
-
-        /*
-        while (health != 0){
-
-            if(health == 0){
-                System.out.println("=====Enemy has been vanquished!=====");
-                break;
-            }
-
-            System.out.println(toString());
-            System.out.print("Enemy is preparing to attack... What will you do?");
-            userChoice = userInp.nextLine();
-
-            if(userChoice.equalsIgnoreCase("run away")){
-                System.out.println("You decided to run away");
-                break;
-            }
-
-            if(userChoice.equalsIgnoreCase("shield")){
-                System.out.println("You decided to shield");
-            }
-
-            if (userChoice.equalsIgnoreCase("attack")){
-                int chance = randChance.nextInt(10);
-                if (chance >=5){
-                    health -= 2;
-                }
-                else{
-                    System.out.println("No Luck! You've Missed!");
-                }
-
-            }
-
-        }
-        */
-
     }
 
 }
