@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-253.33514.17">
+    <data-source name="380DatabaseSQLite" uuid="a1122868-6de1-47bd-a08a-e0aa2f179017">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="380DatabaseSQLiteFinal" uuid="a2c51794-d11f-40fb-a46c-27e86a37e970">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="ConnectionToTrueDatabase" uuid="e0893fbb-6af5-42da-9cbd-648c1c1a00bb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
