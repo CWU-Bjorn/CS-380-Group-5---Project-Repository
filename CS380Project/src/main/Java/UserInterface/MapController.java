@@ -36,7 +36,7 @@ public class MapController {
         }
 
     @FXML
-    private void onEnterLocationClick() {
+    private void onEnterConflictClick() {
         SceneManager.switchScene("gameplay.fxml");
     }
 
