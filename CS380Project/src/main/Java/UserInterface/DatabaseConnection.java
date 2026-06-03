@@ -173,8 +173,10 @@ public class DatabaseConnection {
 
         String sql = "UPDATE " + foundTable + " SET NumberObstaclesDone = NumberObstaclesDone + 1 WHERE " + foundPrimaryKey + "= ?";
 
-        try(Connection connection = connect();
-            PreparedStatement statement = connection.prepareStatement(sql);){
+        try(
+                Connection connection = connect();
+            PreparedStatement statement = connection.prepareStatement(sql);
+            ){
             statement.setInt(1, saveslotRotation);
 
             int result = statement.executeUpdate();
@@ -183,6 +185,32 @@ public class DatabaseConnection {
         }catch(SQLException e){
             e.printStackTrace();
             return false;
+    }
+}
+
+    /**
+     *While the updateMethodForItems also deals with currency I made this to specifically only deal with currency on enemy defeat.
+     * Because I don't want to have to modify the parameters of how the items are updated I whipped up this similar update method.
+     */
+    public static boolean currencyOnEnemyDefeat(int saveslotRotation, int rewardVar){
+    String foundTable = findsTable(saveslotRotation);
+    String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
+
+    String sql = "UPDATE " + foundTable + " SET Currency = Currency + ? " + " WHERE " + foundPrimaryKey + "= ?";
+
+    try(
+            Connection connection = connect();
+            PreparedStatement statement = connection.prepareStatement(sql);
+
+            ){
+        statement.setInt(1, rewardVar);
+        statement.setInt(2, saveslotRotation);
+
+        int result = statement.executeUpdate();
+        return (result > 0);
+    }catch(SQLException e){
+        e.printStackTrace();
+        return false;
     }
 }
         }
