@@ -26,8 +26,14 @@
       <Button layoutX="60.0" layoutY="362.0" mnemonicParsing="false" onAction="#onShopClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="shop-button" text="level1" textFill="#290dfd" />
       <Button layoutX="195.0" layoutY="226.0" mnemonicParsing="false" onAction="#onPuzzleClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="level-button" text="level1" textFill="#e62929" />
       <Button layoutX="91.0" layoutY="92.0" mnemonicParsing="false" onAction="#onEnterConflictClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="level-button" text="level1" textFill="#e62929" />
-      <Button layoutX="431.0" layoutY="24.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="end-button" text="level1" textFill="#f7f00f" />
-      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="126.0" layoutY="505.0" prefHeight="96.0" prefWidth="377.0">
+      <Button layoutX="431.0" layoutY="24.0"
+              mnemonicParsing="false"
+              onAction="#completion"
+              prefHeight="50.0"
+              prefWidth="50.0"
+              style="-fx-background-radius: 15; -fx-background-color: #f7d600;"
+              text="Finish"
+              textFill="black" />      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="126.0" layoutY="505.0" prefHeight="96.0" prefWidth="377.0">
          <font>
             <Font name="Cambria" size="16.0" />
          </font></TextArea>
