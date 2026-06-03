@@ -70,7 +70,7 @@ public class Player{
      */
 
     public void setPlayerHP(int healthAffect){
-        this.playerHP += healthAffect;
+        this.playerHP = Math.max(0, Math.min(25,this.playerHP + healthAffect));
     }
 
 

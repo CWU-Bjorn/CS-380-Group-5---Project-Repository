@@ -1,0 +1,16 @@
+UserInterface\Application.class
+UserInterface\MapController.class
+UserInterface\Puzzle.class
+UserInterface\SaveSelectController.class
+UserInterface\NPC.class
+UserInterface\NPC$1stock.class
+UserInterface\Player.class
+UserInterface\DatabaseConnection.class
+UserInterface\CurrentPlayerSessionHelperClass.class
+UserInterface\GameplayController.class
+UserInterface\Enemy.class
+UserInterface\Launcher.class
+UserInterface\eventDriver.class
+UserInterface\SceneManager.class
+UserInterface\ShopController.class
+UserInterface\PuzzleController.class

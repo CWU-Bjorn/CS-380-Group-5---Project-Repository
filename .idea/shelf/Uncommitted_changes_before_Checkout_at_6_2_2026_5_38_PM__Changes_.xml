@@ -1,0 +1,49 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]" date="1780447096689" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 6/2/2026 5:38 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/CurrentPlayerSessionHelperClass.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/NPC$1stock.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/eventDriver.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Puzzle.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/SaveSelectController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/Map.png" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Application.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/SceneManager.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/GameplayController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Launcher.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Enemy.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/NPC.class" />
+  </binary>
+</changelist>

@@ -1,0 +1,29 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]" date="1780447016594" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 6/2/2026 5:36 PM [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" />
+    <option name="AFTER_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/Player.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/CurrentPlayerSessionHelperClass.class" />
+    <option name="AFTER_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/CurrentPlayerSessionHelperClass.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/CurrentPlayerSessionHelperClass.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/SaveSelectController.class" />
+    <option name="AFTER_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/SaveSelectController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/SaveSelectController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" />
+    <option name="AFTER_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/MapController.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" />
+    <option name="AFTER_PATH" value="out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/DatabaseConnection.class" />
+  </binary>
+</changelist>

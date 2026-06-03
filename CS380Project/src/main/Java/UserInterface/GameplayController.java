@@ -11,9 +11,7 @@ import static UserInterface.DatabaseConnection.obstacleUpdates;
  * this is where the backend logic for the gameplay will go
  */
 public class GameplayController {
-    @FXML private Label enemyHPDisp;
     @FXML private Label enemyNameDisp;
-    @FXML private Label enemyAttackPointDisp;
     @FXML private Label playerNameLabel;
     @FXML private TextArea dialogueText;
     @FXML private Button attackAction;
@@ -21,6 +19,7 @@ public class GameplayController {
     @FXML private Button fleeAction;
     @FXML private Button healAction;
     @FXML private ProgressBar healthBar;
+    @FXML private ProgressBar enemyBar;
 
     private Enemy enemy;
     private Player player;
@@ -93,11 +92,10 @@ public class GameplayController {
     }
 
     private void updateUI(){
-        enemyHPDisp.setText("Enemy HP: " + enemy.getHealth());
         enemyNameDisp.setText(enemy.getName());
-        enemyAttackPointDisp.setText("Enemy Attack Points: " + enemy.getDamage());
         playerNameLabel.setText(player.getPlayerName());
         healthBar.setProgress((double)player.getPlayerHP()/ 25.0);
+        enemyBar.setProgress((double)enemy.getHealth()/ 25.0);
     }
 
     private void disableButtons(){

@@ -1,0 +1,208 @@
+
+.root {
+    -fx-font-family: 'Cambria', monospace;
+}
+
+/* Action Buttons  */
+.action-button {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+/* Turns blue with white text */
+.action-button:hover {
+    -fx-background-color: #4da5ff;
+    -fx-text-fill: #ffffff;
+}
+
+.exit-button {
+    -fx-background-color: #c0392b;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+/* Turns red with white text  */
+.exit-button:hover {
+    -fx-background-color: #ec4434;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+}
+
+/* Inventory Buttons for map */
+.map-button {
+    -fx-background-color:  #1e90ff;
+
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+/* turns lighter blue on hover */
+.map-button:hover {
+    -fx-background-color: #4da5ff;
+
+}
+
+/* Inventory Buttons for map */
+.level-button {
+    -fx-background-color:   #e62929;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #e62929;
+    -fx-cursor: hand;
+}
+
+/*  */
+.level-button:hover {
+    -fx-background-color: #ff4b4b;
+    -fx-text-fill:  #ff4b4b;
+}
+
+/* Shop button for map GUI */
+.shop-button {
+    -fx-background-color: #0031dc;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #0031dc;
+    -fx-cursor: hand;
+}
+
+/*  */
+.shop-button:hover {
+    -fx-background-color: #2c51d1;
+    -fx-text-fill:   #2c51d1;
+}
+
+/* end game button for map GUI */
+.end-button {
+    -fx-background-color: #f7f00f;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #f7f00f;
+    -fx-cursor: hand;
+}
+
+/*  */
+.end-button:hover {
+    -fx-background-color: #fffc4f;
+    -fx-text-fill:   #fffc4f;
+}
+
+/* shop buying Buttons  */
+.shopbuy-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #d8d135;
+    -fx-border-width: 3;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.shopbuy-button:hover {
+    -fx-background-color:  #d8d135;
+    -fx-text-fill: #ffffff;
+}
+
+/* shop selling Buttons  */
+.shopsell-button {
+    -fx-background-color: transparent;
+    -fx-border-color: #E62929FF;
+    -fx-border-width: 3;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.shopsell-button:hover {
+    -fx-background-color:  #E62929FF;
+    -fx-text-fill: #ffffff;
+}
+
+/* save delete button */
+.shopInteract-button {
+    -fx-background-color: #009e00;
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+
+.shopInteract-button:hover {
+    -fx-background-color: #00c800;
+    -fx-text-fill: black;
+}
+
+/* save enter button */
+.saveEnter-button {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.saveEnter-button:hover {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+/* save delete button */
+.saveDelete-button {
+    -fx-background-color: #E62929FF;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-font-weight: bold;
+    -fx-font-size: 13px;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+}
+
+.saveDelete-button:hover {
+    -fx-background-color: #E62929FF;
+    -fx-text-fill: black;
+}
+
+
+/* button for door on map gui*/
+.mapDoor-button {
+    -fx-background-color: #7e7e7e;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-text-fill: #7e7e7e;
+    -fx-cursor: hand;
+}
+
+/*  */
+.mapDoor-button:hover {
+    -fx-background-color: #989898;
+    -fx-text-fill:  #989898;
+}
+
+/* styles the dialogue box in gameplay  */
+.gameplayDialogue-button {
+    -fx-background-color: transparent;
+    -fx-border-color: black;
+    -fx-border-width: 0;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 25;
+    -fx-text-fill: black;
+    -fx-cursor: hand;
+}
+

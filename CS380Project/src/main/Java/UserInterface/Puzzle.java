@@ -3,9 +3,16 @@ import java.util.*;
 import java.io.*;
 
 class Puzzle {
-    boolean puzzleStatus = false;                                   // Flag for successful puzzle completion
 
-    public boolean puzzleEvent() {
+    private boolean puzzleStatus = false;                                   // Flag for successful puzzle completion
+    private String wordToGuess;
+    private StringBuilder wordHidden;
+
+    public String getHiddenWord(){ return wordHidden.toString(); }
+    public String getWordToGuess(){ return wordToGuess;}
+    public boolean getPuzzleStatus(){ return puzzleStatus; }
+
+    public void puzzleEvent() {
 
         String fileName = "puzzle_wordbank.txt";
         String line;
@@ -15,43 +22,39 @@ class Puzzle {
 
         Scanner input = new Scanner(System.in);
 
-        try (BufferedReader fileBuffer = new BufferedReader (new FileReader(fileName))){ // Try-Catch Block to open file if exist
+        try (BufferedReader fileBuffer = new BufferedReader(new FileReader(fileName))) { // Try-Catch Block to open file if exist
 
             while ((line = fileBuffer.readLine()) != null) { // While loop to skip header and EOF lines. Stores word in variable
                 wordList.add(line.trim());
             }
 
-        } catch (IOException e){
+        } catch (IOException e) {
             System.out.println("File Not Found...");
         }
 
+        if (wordList.isEmpty()) {
+            return;
+        }
+
         Random randChoice = new Random();
-        String wordToGuess = wordList.get(randChoice.nextInt(wordList.size()));
+        wordToGuess = wordList.get(randChoice.nextInt(wordList.size()));
+        wordHidden = new StringBuilder("_".repeat(wordToGuess.length()));
 
-        StringBuilder wordHidden = new StringBuilder();
-        for(int i = 0; i < wordToGuess.length(); i++){
-            wordHidden.append("_");
-        }
-
-        while(!success) {
-            System.out.print("Enter a letter to guess the clue: ");
-            char letter = input.next().charAt(0);
-            for(int i = 0; i < wordToGuess.length(); i++){
-                if(wordToGuess.charAt(i) == letter){
-                    wordHidden.setCharAt(i, letter);
-                }
-            }
-
-            System.out.println(wordHidden);
-
-            if(wordHidden.toString().equals(wordToGuess)) {
-                success = true;
-            }
-        }
-
-
-        System.out.println(wordHidden);
-        return puzzleStatus;
     }
 
+    public boolean guessLetter(char letter) {
+        letter = Character.toLowerCase(letter);
+
+        for(int i = 0; i < wordToGuess.length(); i++) {
+            if(wordToGuess.charAt(i) == letter) {
+                wordHidden.setCharAt(i, letter);
+            }
+
+        }
+
+        if (wordHidden.toString().equals(wordToGuess)) {
+            puzzleStatus = true;
+        }
+        return puzzleStatus;
+    }
 }
