@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="497.0" prefWidth="601.0" style="-fx-background-color: #1c1f26;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.EndGameController">
+<AnchorPane prefHeight="497.0" prefWidth="601.0" styleClass="map-button" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.EndGameController">
 
     <children>
 
@@ -19,15 +19,15 @@
         </Label>
 
         <!-- SUBTITLE -->
-        <Label layoutX="179.0" layoutY="180.0" text="You completed the adventure!" textFill="#d0d0d0">
+        <Label layoutX="179.0" layoutY="180.0" text="You completed the adventure!" textFill="WHITE">
 
             <font>
-                <Font size="18" />
+                <Font name="Cambria" size="20.0" />
             </font>
         </Label>
 
         <!-- STATS BOX -->
-        <VBox layoutX="208.0" layoutY="248.0" spacing="10" style="-fx-background-color: #2a2f3a;                      -fx-padding: 20;                      -fx-background-radius: 10;">
+        <VBox layoutX="208.0" layoutY="248.0" spacing="10" styleClass="action-button" stylesheets="@styles.css">
 
             <Label text="Final Stats:" textFill="white">
                 <font>
@@ -44,10 +44,10 @@
         </VBox>
 
         <!-- RETURN BUTTON -->
-        <Button layoutX="148.0" layoutY="456.0" onAction="#onReturnMenuClick" prefWidth="150" style="-fx-background-color: #3b82f6;                        -fx-text-fill: white;                        -fx-font-size: 14;                        -fx-background-radius: 8;" text="Return to Map" />
+        <Button layoutX="148.0" layoutY="456.0" onAction="#onReturnMenuClick" prefWidth="150" styleClass="action-button" stylesheets="@styles.css" text="Return to Map" />
 
         <!-- EXIT BUTTON -->
-        <Button layoutX="331.0" layoutY="456.0" onAction="#onExitClick" prefWidth="150" style="-fx-background-color: #ef4444;                        -fx-text-fill: white;                        -fx-font-size: 14;                        -fx-background-radius: 8;" text="Exit Game" />
+        <Button layoutX="331.0" layoutY="456.0" onAction="#onExitClick" prefWidth="150" styleClass="exit-button" stylesheets="@styles.css" text="Exit Game" />
 
     </children>
 
