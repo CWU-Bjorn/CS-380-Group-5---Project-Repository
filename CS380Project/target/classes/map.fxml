@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="602.0" prefWidth="42.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
+<AnchorPane prefHeight="602.0" prefWidth="42.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserInterface.MapController">
    <children>
       <ImageView fitHeight="550.0" fitWidth="504.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
@@ -27,10 +25,8 @@
       <Button layoutX="195.0" layoutY="228.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15; -fx-background-color: #e62929;" text="level1" textFill="#e62929" />
       <Button layoutX="93.0" layoutY="93.0" mnemonicParsing="false" onAction="#onEnterLocationClick" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="level-button" text="level1" textFill="#e62929" />
       <Button layoutX="431.0" layoutY="24.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" style="-fx-background-radius: 15;" styleClass="end-button" text="level1" textFill="#f7f00f" />
-      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="126.0" layoutY="505.0" prefHeight="96.0" prefWidth="377.0">
-         <font>
-            <Font name="Cambria" size="16.0" />
-         </font></TextArea>
+      <TextArea fx:id="textAreaForInventory" editable="false" layoutX="126.0" layoutY="505.0" prefHeight="96.0" prefWidth="377.0" />
       <Button layoutY="570.0" mnemonicParsing="false" onAction="#buttonActionClick" prefHeight="30.0" prefWidth="126.0" styleClass="map-button" text="Check Inventory" />
+      <Button layoutX="182.0" layoutY="24.0" mnemonicParsing="false" onAction="#keyChecking" prefHeight="50.0" prefWidth="67.0" text="Door" />
    </children>
 </AnchorPane>
