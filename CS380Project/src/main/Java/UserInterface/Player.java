@@ -19,6 +19,8 @@ public class Player{
     private boolean food;
     private int currencyAmount;
     private int NumberOfCompleatedObstacles;
+    private boolean doorOpened;
+
 
     /**
      * This is the constructor, built on the many different declared items above.
@@ -44,6 +46,14 @@ public class Player{
      */
     public int getNumberOfCompleatedObstacles(){
         return NumberOfCompleatedObstacles;
+    }
+    
+    public boolean isDoorOpened() {
+        return doorOpened;
+    }
+
+    public void setDoorOpened(boolean doorOpened) {
+        this.doorOpened = doorOpened;
     }
 
     //Getters
