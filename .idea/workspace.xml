@@ -5,27 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Implementation of obstacles compleated up ticker. Now we can tie this into the end schreen so that player can finish the game.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/380DatabaseSQLiteFinal.db" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/380DatabaseSQLiteFinal.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/gameProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/gameProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/resources/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/resources/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/SaveSelect.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/SaveSelect.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/GameplayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/GameplayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/gameplay.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/gameplay.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/shop.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/shop.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

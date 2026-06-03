@@ -27,7 +27,7 @@ public class GameplayController {
     private boolean flipForObstacles;
 
     @FXML public void initialize() {
-        enemy = new Enemy("Werewolf", 30, -2);
+        enemy = new Enemy("Werewolf", 30, -1);
         player = CurrentPlayerSessionHelperClass.getCurrentPlayer();
         dialogueText.setText("You come across a " + enemy.getName() + "!\nMake A Move!\n");
         if(player != null) {
@@ -67,8 +67,9 @@ public class GameplayController {
             flipForObstacles = true;
 
             boolean addingToObsticle = DatabaseConnection.obstacleUpdates(player.getSaveslotRotation());
+            boolean playerReward = DatabaseConnection.currencyOnEnemyDefeat(player.getSaveslotRotation(), 10);
 
-            if (addingToObsticle) {
+            if (addingToObsticle && playerReward) {
 
                 Player playerRefresh = DatabaseConnection.loadPlayer(player.getSaveslotRotation());
 
@@ -78,7 +79,7 @@ public class GameplayController {
                 player = playerRefresh;
             }
                 dialogueText.setText("===Enemy Defeated===");
-            System.out.println("Compleated: " + player.getNumberOfCompleatedObstacles());
+
         }
             updateUI();
             disableButtons();
