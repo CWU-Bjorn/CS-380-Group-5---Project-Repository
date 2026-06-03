@@ -9,7 +9,10 @@ import javafx.scene.control.PasswordField;
  * this is where the backend logic for the saveselect scene will go
  */
 public class SaveSelectController {
-
+    /**
+     * What allows the GUI to access the save slots. This checks the password and then allows access to the save if it is correct.
+     * Once the password is correct the end user is transported to the map.fxml.
+     */
     @FXML
     private PasswordField saveSlotOne;
 

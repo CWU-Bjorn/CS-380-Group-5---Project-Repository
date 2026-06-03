@@ -66,6 +66,9 @@ public class MapController {
         textAreaForInventory.setText(newPlayerPostUpdate.getDisplayToGUI());
     }
 
+    /**
+     * Method for buying the sword item. This will deduct currency from the player
+     */
     @FXML
     private void UpdateForSwordToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -78,6 +81,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method for selling the sword, this will add currency to the currency variable and will remove the sword from the inventory
+     */
     @FXML
     private void UpdateForSwordToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -90,6 +96,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method for buying the key same as buying the sword method this will add it to the inventory
+     */
     @FXML
     private void UpdateForKeyToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -102,6 +111,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method for selling the key. Will remove it from the inventory
+     */
     @FXML
     private void UpdateForKeyToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -114,6 +126,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method to buy the shield
+     */
     @FXML
     private void UpdateForShieldToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -126,6 +141,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method to sell the shield
+     */
     @FXML
     private void UpdateForShieldToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -138,6 +156,9 @@ public class MapController {
 
     }
 
+    /**
+     * Method to buy food
+     */
     @FXML
     private void UpdateForFoodToGUIAdd() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
@@ -150,11 +171,14 @@ public class MapController {
 
     }
 
+    /**
+     * Method to eat the food. This uses the class in DatabaseConnection for adding hp to the player rather than selling the food for currency.
+     */
     @FXML
     private void UpdateForFoodToGUIRemove() {
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 
-        boolean removeFood = DatabaseConnection.updateMethodForItems(currentPlayerUpdate.getSaveslotRotation(),"Food", false, 5);
+        boolean removeFood = DatabaseConnection.updateToFood(currentPlayerUpdate.getSaveslotRotation(),10);
 
         if(removeFood){
             playerUpdate();
