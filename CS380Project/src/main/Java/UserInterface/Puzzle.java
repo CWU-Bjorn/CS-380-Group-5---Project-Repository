@@ -6,32 +6,31 @@ class Puzzle {
 
     private boolean puzzleStatus = false;                                   // Flag for successful puzzle completion
     private String wordToGuess;
-    private StringBuilder wordHidden;
+    private StringBuilder wordHidden = new StringBuilder();
 
     public String getHiddenWord(){ return wordHidden.toString(); }
     public String getWordToGuess(){ return wordToGuess;}
     public boolean getPuzzleStatus(){ return puzzleStatus; }
 
     public void puzzleEvent() {
-
-        String fileName = "puzzle_wordbank.txt";
+        System.out.println("Puzzle Started");
         String line;
         List<String> wordList = new ArrayList<String>();
 
-        boolean success = false;
+        try(InputStream is = getClass().getResourceAsStream("/puzzle_wordbank.txt")){
 
-        Scanner input = new Scanner(System.in);
+            System.out.println("InputStream: " + is);
 
-        try (BufferedReader fileBuffer = new BufferedReader(new FileReader(fileName))) { // Try-Catch Block to open file if exist
+            BufferedReader fileBuff = new BufferedReader(new InputStreamReader(is));
 
-            while ((line = fileBuffer.readLine()) != null) { // While loop to skip header and EOF lines. Stores word in variable
+            while((line = fileBuff.readLine()) !=null){
                 wordList.add(line.trim());
             }
 
-        } catch (IOException e) {
-            System.out.println("File Not Found...");
+            System.out.println("wordList: " + wordList.size());
+        }catch(IOException | NullPointerException e){
+            System.out.println("File not found...");
         }
-
         if (wordList.isEmpty()) {
             return;
         }

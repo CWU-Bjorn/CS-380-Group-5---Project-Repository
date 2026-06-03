@@ -66,6 +66,11 @@ public class MapController {
         textAreaForInventory.setText(newPlayerPostUpdate.getDisplayToGUI());
     }
 
+    @FXML
+    private void onPuzzleClick(){
+        SceneManager.switchScene("puzzle.fxml");
+    }
+
     /**
      * Method for buying the sword item. This will deduct currency from the player
      */
