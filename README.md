@@ -1,4 +1,1 @@
-Implemented all the necessary files to get JavaFX running. 
-The UI logic works by having a controller and .fxml file for each of the three proposed windows. 
-There is also SceneManager.java which handles the logic to switch between each scene or window. 
-The save select window is complete and the map and gameplay scenes are under construction. 
+Welcome to our project! We did this group project for our CS 380 Introduction to Softare Engineering class, we are proud to bring to you our game that we spent the last few months on. Also please refer to the "Storage for design documents, planning and showcase of SQL script" folder for all design documentation. In addition the SQL sctipt is there in a txt document. That is only becuase we use SQLite and the actual script for that database does not always visably show when the project is implemented so if you are curious what it is it is there. We used Intellij IDEA for our IDE and the steps to walk through set up are in a document in that mentioned folder. 
