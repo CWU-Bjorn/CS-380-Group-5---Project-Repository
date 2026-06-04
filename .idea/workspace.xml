@@ -5,43 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch.">
-      <change afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Group5DesignDocumentPhase4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/SQLiteDatabaseScript.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/CurrentPlayerSessionHelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/DatabaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/MapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/SaveSelectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_40_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_40_PM__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_6_2_2026_5_41_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_6_2_2026_5_41_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Group5DesignDocumentPhase3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Group5DesignDocumentPhase3.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Organization and logistics/Graveyard of old code for parts/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Organization and logistics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Organization and logistics/Team BANT Player Entity Interaction Guidelines and Interactions.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Team BANT Player Entity Interaction Guidelines and Interactions.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,12 +39,12 @@
     &quot;assignee&quot;: &quot;CWU-Bjorn&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository&quot;,
-    &quot;accountId&quot;: &quot;5e11ec08-bf0e-4bfc-9c66-f7224e5f7c11&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository.git",
+    "accountId": "7988a271-848b-4878-9022-6a32ca6d4176"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0,
   &quot;fromUser&quot;: false
@@ -104,7 +70,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "NelsonImplements",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/addin/IdeaProjects/CS-380-Group-5---Project-RepositoryTrueTrue/Storage for design documents, planning and showcase of SQL script",
@@ -141,8 +107,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33514.17" />
       </set>
     </attachedChunks>
   </component>
