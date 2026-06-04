@@ -21,12 +21,12 @@
          <top>
             <AnchorPane prefHeight="86.0" prefWidth="800.0">
                <children>
-                  <Button fx:id="exitButton" layoutX="36.0" layoutY="28.0" mnemonicParsing="false" onAction="#onExitGameplayLoop" prefHeight="30.0" prefWidth="118.0" styleClass="exit-button" text="RUN AWAY">
+                  <Button fx:id="exitButton" layoutX="36.0" layoutY="28.0" mnemonicParsing="false" onAction="#onExitGameplayLoop" prefHeight="30.0" prefWidth="94.0" styleClass="exit-button" text="RUN AWAY">
                      <font>
                         <Font name="Candara" size="12.0" />
                      </font>
                   </Button>
-                  <Label layoutX="297.0" layoutY="24.0" prefHeight="47.0" prefWidth="206.0" style="-fx-background-color: green;" text="Guess That Word!" textAlignment="RIGHT" textFill="WHITE">
+                  <Label layoutX="295.0" layoutY="24.0" prefHeight="47.0" prefWidth="199.0" style="-fx-background-color: green;" text=" Guess that word!" textAlignment="RIGHT" textFill="WHITE">
                      <font>
                         <Font name="Cambria Bold" size="24.0" />
                      </font>
@@ -43,14 +43,20 @@
                         <Font name="Cambria" size="12.0" />
                      </font>
                   </Label>
-                  <Label fx:id="hiddenWordDisplay" layoutX="344.0" layoutY="313.0" prefHeight="60.0" prefWidth="258.0" text="Label" textFill="WHITE">
+                  <Label fx:id="hiddenWordDisplay" layoutX="321.0" layoutY="313.0" prefHeight="60.0" prefWidth="258.0" text="Guess word " textFill="WHITE">
                      <font>
-                        <Font size="16.0" />
+                        <Font name="Cambria" size="20.0" />
                      </font>
                   </Label>
-                  <TextField fx:id="wordGuess" layoutX="279.0" layoutY="373.0" onAction="#handleGuess" prefHeight="82.0" prefWidth="186.0" promptText="Enter a guess!" styleClass="saveEnter-button" />
+                  <TextField fx:id="wordGuess" layoutX="279.0" layoutY="373.0" onAction="#handleGuess" prefHeight="82.0" prefWidth="186.0" promptText="Enter a guess!" styleClass="saveEnter-button">
+                     <font>
+                        <Font name="Cambria" size="13.0" />
+                     </font></TextField>
 
-                                    <Button fx:id="confirm" layoutX="514.0" layoutY="373.0" mnemonicParsing="false" onAction="#initialize" prefHeight="54.0" prefWidth="129.0" styleClass="action-button" text="Confirm" />
+                                    <Button fx:id="confirm" layoutX="514.0" layoutY="373.0" mnemonicParsing="false" onAction="#initialize" prefHeight="54.0" prefWidth="129.0" styleClass="action-button" text="Confirm">
+                     <font>
+                        <Font name="Cambria Math" size="14.0" />
+                     </font></Button>
                </children>
             </AnchorPane>
          </left>

@@ -5,19 +5,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy.">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/DatabaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/MapController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/UserInterface/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Keyhole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/EndGameController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/GameplayController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Launcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/NPC$1stock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/NPC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Puzzle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/PuzzleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SceneManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/ShopController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/eventDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/darkForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/endGame.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/gameplay.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/lightForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Food.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Key.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Keyhole.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/darkForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/endGame.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/gameplay.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/lightForest.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle_wordbank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/saveSelect.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/shop.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle_wordbank.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/saveSelect.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/shop.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/sword.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/endGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/endGame.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
