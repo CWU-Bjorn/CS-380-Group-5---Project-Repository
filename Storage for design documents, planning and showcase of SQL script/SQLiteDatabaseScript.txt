@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS SaveFile1;
+DROP TABLE IF EXISTS SaveFile2;
+DROP TABLE IF EXISTS SaveFile3;
+
+create table SaveFile1(Save1 INT PRIMARY KEY,Pname VARCHAR(100),PWord VARCHAR(30),Sword INTEGER NOT NULL DEFAULT 0 CHECK (Sword IN (0,1)), keyInGame INTEGER NOT NULL DEFAULT 0 CHECK (keyInGame IN (0,1)),
+                       Shield INTEGER NOT NULL DEFAULT 0 CHECK (Shield IN (0,1)), food INTEGER NOT NULL DEFAULT 0 CHECK (food IN (0,1)), Currency INT, NumberObstaclesDone INT, playerHealth INT);
+
+create table SaveFile2(Save2 INT PRIMARY KEY,Pname VARCHAR(100),PWord VARCHAR(30),Sword INTEGER NOT NULL DEFAULT 0 CHECK (Sword IN (0,1)), keyInGame INTEGER NOT NULL DEFAULT 0 CHECK (keyInGame IN (0,1)),
+                       Shield INTEGER NOT NULL DEFAULT 0 CHECK (Shield IN (0,1)), food INTEGER NOT NULL DEFAULT 0 CHECK (food IN (0,1)), Currency INT, NumberObstaclesDone INT, playerHealth INT);
+
+create table SaveFile3(Save3 INT PRIMARY KEY,Pname VARCHAR(100),PWord VARCHAR(30),Sword INTEGER NOT NULL DEFAULT 0 CHECK (Sword IN (0,1)), keyInGame INTEGER NOT NULL DEFAULT 0 CHECK (keyInGame IN (0,1)),
+                       Shield INTEGER NOT NULL DEFAULT 0 CHECK (Shield IN (0,1)), food INTEGER NOT NULL DEFAULT 0 CHECK (food IN (0,1)), Currency INT, NumberObstaclesDone INT, playerHealth INT);
+
+insert into SaveFile1 values(1,'Character one','Password1', 1 , 1, 1, 1 , 30 , 1, 25);
+insert into SaveFile2 values(2,'Character two','Password2', 0 , 0, 0, 0 , 0 , 0, 25);
+insert into SaveFile3 values(3,'Character three','', 0 , 0, 0, 0 , 0 , 0, 25);
+
+
+SELECT name FROM sqlite_master WHERE type = 'table';
+
+SELECT * FROM SaveFile2;

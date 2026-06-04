@@ -48,21 +48,11 @@ public class MapController {
     @FXML
     private TextArea textAreaForInventory;
 
+    //Updates the player when action is clicked
     @FXML
     private void buttonActionClick(){
 
         playerUpdate();
-//        Player currentPlayerVar = CurrentPlayerSessionHelperClass.getCurrentPlayer();
-//
-//        System.out.println("Good test map: " + currentPlayerVar);
-//
-//        if(currentPlayerVar == null){
-//            textAreaForInventory.setText("You are not in inventory!");
-//            return;
-//        }
-//
-//        textAreaForInventory.setText(currentPlayerVar.getDisplayToGUI());
-
         }
 
     @FXML
@@ -83,6 +73,10 @@ public class MapController {
         SceneManager.switchScene("shop.fxml");
     }
 
+    /**
+     * This is how the player is updated when a change happens to the inventory, this will live update the GUI with
+     * the CurrentPlayerSessionHelperClass.java
+     */
     private void playerUpdate(){
         Player currentPlayerUpdate = CurrentPlayerSessionHelperClass.getCurrentPlayer();
 

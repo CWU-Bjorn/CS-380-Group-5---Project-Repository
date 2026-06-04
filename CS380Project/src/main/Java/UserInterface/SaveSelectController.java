@@ -46,6 +46,9 @@ public class SaveSelectController {
         tryLogin(3, saveSlotThree.getText());
     }
 
+    /**
+     * This is what displays the message that there is no password to the GUI
+     */
     @FXML
     private void initialize(){
 
@@ -70,6 +73,14 @@ public class SaveSelectController {
 
     }
 
+    /**
+     *This is a very important method, this is what logs the plays into the save slot. This will access
+     * the live player and use that to enter the save slot, there are also some proections however, in hindsight
+     * I do not know how useful they are or how necessary they are. But at the time of creation they made sense.
+     *
+     * This is also what will update to the SQL when there is no password currenctly in the selected save slot.
+     * Then they are transposted to the map same as if there is a password and they use the correct one.
+     */
     private void tryLogin(int saveSlotID, String password){
 
         if(password == null || password.isBlank()){
@@ -111,7 +122,7 @@ public class SaveSelectController {
             // creates array of message labels and prints to the correct one based on saveSlot
             new Label[]{message1, message2, message3}[saveSlotID - 1].setText("Password does not match");
         }
-    }
+     }
     /**
      * switches to map scene
      * This ideally will be used when a password is entered correctly
