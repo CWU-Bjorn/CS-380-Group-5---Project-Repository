@@ -4,64 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy.">
+    <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch.">
+      <change afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Group5DesignDocumentPhase4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/SQLiteDatabaseScript.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_5_31_2026_10_02_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/CurrentPlayerSessionHelperClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/DatabaseConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/MapController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/SaveSelectController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_36_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_38_PM__Changes_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_40_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_6_2_2026_5_40_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_6_2_2026_5_41_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_6_2_2026_5_41_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Food.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Keyhole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Shield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/Tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Application.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/CurrentPlayerSessionHelperClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/EndGameController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Enemy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/GameplayController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Launcher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/NPC$1stock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/NPC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Puzzle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/PuzzleController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SaveSelectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/SceneManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/ShopController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/eventDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/darkForest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/endGame.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/gameplay.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/lightForest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Food.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Key.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Keyhole.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Map.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Shield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/Tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/darkForest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/endGame.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/gameplay.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/lightForest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/map.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/puzzle_wordbank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/saveSelect.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/shop.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/main/resources/sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle_wordbank.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/saveSelect.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/shop.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/sword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/endGame.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/endGame.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/map.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS-380-Group-5---Project-Repository/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/GameplayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/MapController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/SaveSelectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/MapController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/UserInterface/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/map.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/classes/puzzle.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Group5DesignDocumentPhase3.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Group5DesignDocumentPhase3.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Organization and logistics/Graveyard of old code for parts/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Organization and logistics/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Organization and logistics/Team BANT Player Entity Interaction Guidelines and Interactions.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Storage for design documents, planning and showcase of SQL script/Team BANT Player Entity Interaction Guidelines and Interactions.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,42 +88,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Application.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Launcher.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NPCDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.eventDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.gameProject.executor&quot;: &quot;Run&quot;,
-    &quot;Application.puzzleDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/nelso/OneDrive/Documents/School Documents/CS 420/Assignment 3/CS-380-Group-5---Project-Repository&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Debug",
+    "Application.Launcher.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NPCDriver.executor": "Run",
+    "Application.eventDriver.executor": "Run",
+    "Application.gameProject.executor": "Run",
+    "Application.puzzleDriver.executor": "Run",
+    "Maven.gameProject [org.openjfx:javafx-maven-plugin:0.0.8:run].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/addin/IdeaProjects/CS-380-Group-5---Project-RepositoryTrueTrue/Storage for design documents, planning and showcase of SQL script",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\addin\IdeaProjects\CS-380-Group-5---Project-RepositoryTrueTrue\Storage for design documents, planning and showcase of SQL script" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\addin\IdeaProjects\CS-380-Group-5---Project-RepositoryTrueTrue\Organization and logistics" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\CS380Project\.idea\libraries" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository" />
       <recent name="C:\Users\nelso\OneDrive\Documents\School Documents\CS 420\Assignment 3\CS-380-Group-5---Project-Repository\Puzzle" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.gameProject">
+  <component name="RunManager">
     <configuration name="gameProject" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
       <option name="MAIN_CLASS_NAME" value="UserInterface.Application" />
@@ -153,26 +137,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CurrentPlayerSessionHelperClassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="UserInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="UserInterface" />
-      <option name="MAIN_CLASS_NAME" value="UserInterface.CurrentPlayerSessionHelperClassTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.CurrentPlayerSessionHelperClassTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -192,6 +156,9 @@
       <workItem from="1780447825589" duration="356000" />
       <workItem from="1780448241232" duration="6536000" />
       <workItem from="1780459738040" duration="1545000" />
+      <workItem from="1780517192121" duration="82000" />
+      <workItem from="1780519733324" duration="6945000" />
+      <workItem from="1780539945317" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy.">
       <option name="closed" value="true" />
@@ -201,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780511729372</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch.">
+      <option name="closed" value="true" />
+      <created>1780515452515</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1780515452516</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +184,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy." />
-    <option name="LAST_COMMIT_MESSAGE" value="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy." />
+    <MESSAGE value="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch." />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch." />
   </component>
 </project>

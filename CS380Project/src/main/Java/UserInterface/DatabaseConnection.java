@@ -2,7 +2,6 @@ package UserInterface;
 /**
  * Import of the necessary stuff, I just imported all of the libraries so this would probably need to change later for efficiency
  */
-import java.nio.file.Paths;
 import java.sql.*;
 public class DatabaseConnection {
     /**
@@ -214,7 +213,11 @@ public class DatabaseConnection {
     }
 }
 
-public static boolean emptySave(int saveslotRotation, String newPasswordVar){
+    /**
+     *This method is what handles to check is a save slot has or does not have a password yet. If it does then nothing
+     * happens and the player can log it, if there is no password then it will link with methods in Mapcontroller to display that
+     */
+    public static boolean emptySave(int saveslotRotation, String newPasswordVar){
         String foundTable = findsTable(saveslotRotation);
         String foundPrimaryKey = findsPrimaryKey(saveslotRotation);
 
