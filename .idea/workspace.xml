@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba1b9cf-4d5f-4747-9f13-9995e9203975" name="Changes" comment="Feature for empty save slot. Now if a slot is empty the GUI will reference that to the user and they can enter a password that will be updated and locking into that slot. Now they can start the game from scratch.">
+      <change beforePath="$PROJECT_DIR$/.idea/CS-380-Group-5---Project-Repository.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CS-380-Group-5---Project-Repository.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/Puzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/380DatabaseSQLiteFinal.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/CS380Project/src/main/Java/UserInterface/DatabaseConnection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +44,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
-    "url": "https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository.git",
-    "accountId": "7988a271-848b-4878-9022-6a32ca6d4176"
+    "url": "https://github.com/CWU-Bjorn/CS-380-Group-5---Project-Repository",
+    "accountId": "5e11ec08-bf0e-4bfc-9c66-f7224e5f7c11"
   }
 }]]></component>
   <component name="ProjectColorInfo">{
@@ -70,11 +73,11 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "NelsonImplements",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/addin/IdeaProjects/CS-380-Group-5---Project-RepositoryTrueTrue/Storage for design documents, planning and showcase of SQL script",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
@@ -98,6 +101,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="ms-21" />
       <option name="MAIN_CLASS_NAME" value="UserInterface.Application" />
       <module name="CS-380-Group-5---Project-Repository" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;file://$USER_HOME$/OneDrive/Desktop/javafx-sdk-26.0.1/lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CS380Project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,7 +111,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.33514.17" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -124,6 +129,7 @@
       <workItem from="1780517192121" duration="82000" />
       <workItem from="1780519733324" duration="6945000" />
       <workItem from="1780539945317" duration="1475000" />
+      <workItem from="1780629566219" duration="248000" />
     </task>
     <task id="LOCAL-00001" summary="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy.">
       <option name="closed" value="true" />
@@ -146,6 +152,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.db" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Small change to the player damage modification. Now if the player has the sword in inventory they will do more damage to the enemy." />
